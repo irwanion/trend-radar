@@ -1,2 +1,4 @@
 pytrends==4.9.2
 pandas
+google-genai
+anthropic
