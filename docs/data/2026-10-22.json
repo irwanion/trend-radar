@@ -1,0 +1,350 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-22T09:32:31Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 78,
+   "parts": {
+    "demand": 9.7,
+    "growth": 30.0,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 6.7
+   },
+   "growth_pct": 120,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    35.0,
+    29.5,
+    26.4,
+    11.0,
+    29.9,
+    39.2,
+    30.4,
+    21.9,
+    1.2,
+    0.0,
+    5.6,
+    5.0
+   ],
+   "related": [
+    "fungsi slow cooker",
+    "how to use a slow cooker"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 120% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 11.11 in 20 days"
+   ],
+   "rank": 1
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 77,
+   "parts": {
+    "demand": 10.3,
+    "growth": 28.1,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.7
+   },
+   "growth_pct": 73,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    4.0,
+    5.3,
+    2.7,
+    1.5,
+    4.3,
+    3.5,
+    2.7,
+    1.7,
+    2.5,
+    2.7,
+    6.6,
+    6.8
+   ],
+   "related": [
+    "harga cetakan kue lumpur",
+    "cetakan kue bikang",
+    "cetakan kue pie"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 73% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 20 days"
+   ],
+   "rank": 2
+  },
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 76,
+   "parts": {
+    "demand": 12.9,
+    "growth": 26.1,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.7
+   },
+   "growth_pct": 60,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    0.0,
+    0.0,
+    1.3,
+    0.0,
+    1.2,
+    3.7,
+    2.7,
+    0.0,
+    4.6,
+    4.8,
+    8.3,
+    9.5
+   ],
+   "related": [
+    "dekorasi pohon natal",
+    "pohon natal dari bambu",
+    "pohon natal coc"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 60% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 20 days"
+   ],
+   "rank": 3
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 74,
+   "parts": {
+    "demand": 13.5,
+    "growth": 23.2,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.7
+   },
+   "growth_pct": 25,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    12.1,
+    8.8,
+    8.0,
+    8.8,
+    8.8,
+    6.0,
+    8.8,
+    4.5,
+    5.6,
+    7.6,
+    9.8,
+    9.6
+   ],
+   "related": [],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 25% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 20 days"
+   ],
+   "rank": 4
+  },
+  {
+   "keyword": "mixer kue",
+   "category": "Kitchen appliances",
+   "score": 71,
+   "parts": {
+    "demand": 6.5,
+    "growth": 29.0,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.7
+   },
+   "growth_pct": 91,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    1.3,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.3,
+    0.0,
+    2.3,
+    2.3
+   ],
+   "related": [
+    "fungsi mixer kue"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 91% vs the previous 3 weeks",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 20 days"
+   ],
+   "rank": 5
+  },
+  {
+   "keyword": "oven listrik",
+   "category": "Kitchen appliances",
+   "score": 69,
+   "parts": {
+    "demand": 14.2,
+    "growth": 24.2,
+    "commission": 7.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.7
+   },
+   "growth_pct": 25,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    9.6,
+    12.3,
+    6.1,
+    10.5,
+    10.8,
+    9.8,
+    11.8,
+    13.8,
+    6.6,
+    10.1,
+    10.6,
+    11.5
+   ],
+   "related": [
+    "harga oven listrik mito",
+    "cara memanaskan oven listrik",
+    "beda microwave dan oven listrik"
+   ],
+   "commission": 5,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Searches up 25% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 20 days"
+   ],
+   "rank": 6
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 68,
+   "parts": {
+    "demand": 15.5,
+    "growth": 19.4,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.7
+   },
+   "growth_pct": 6,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    11.1,
+    14.1,
+    14.1,
+    10.3,
+    12.1,
+    11.1,
+    12.8,
+    4.3,
+    12.1,
+    9.5,
+    12.1,
+    11.9
+   ],
+   "related": [
+    "cara memakai lem tembak",
+    "harga lem tembak kecil di fotocopy"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 11.11 in 20 days"
+   ],
+   "rank": 7
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 68,
+   "parts": {
+    "demand": 9.0,
+    "growth": 27.1,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 6.7
+   },
+   "growth_pct": 62,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    3.3,
+    2.5,
+    2.5,
+    0.0,
+    2.3,
+    2.0,
+    4.5,
+    1.5,
+    2.5,
+    1.2,
+    5.0,
+    4.6
+   ],
+   "related": [
+    "teko listrik cosmos",
+    "teko listrik stainless",
+    "teko listrik watt kecil"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 62% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 20 days"
+   ],
+   "rank": 8
+  }
+ ]
+}
