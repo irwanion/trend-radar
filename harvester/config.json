@@ -1,0 +1,60 @@
+{
+  "_help": "Edit this file to change what the radar watches. Each keyword line is: [search term, estimated commission %, competition (low/medium/high), content potential 1-5, tags]. Commission and competition are YOUR estimates (Shopee does not publish them): check your Shopee Affiliate dashboard and update them.",
+  "anchor": "panci",
+  "max_items_per_day": 8,
+  "max_per_category": 5,
+  "history_days": 7,
+  "event_window_days": 60,
+  "categories": [
+    {
+      "name": "Home decor & tools",
+      "keywords": [
+        ["lampu led strip", 7, "high", 5, ["decor", "cozy", "gift"]],
+        ["lampu tidur", 6, "high", 4, ["decor", "cozy", "gift"]],
+        ["rak dinding", 7, "high", 4, ["decor"]],
+        ["wallpaper dinding", 8, "medium", 5, ["decor"]],
+        ["karpet bulu", 7, "medium", 4, ["decor", "cozy"]],
+        ["jam dinding", 6, "medium", 3, ["decor", "gift"]],
+        ["vas bunga", 7, "medium", 4, ["decor", "gift"]],
+        ["pohon natal", 8, "medium", 5, ["decor", "natal"]],
+        ["lampu hias natal", 8, "medium", 5, ["decor", "natal", "cozy"]],
+        ["organizer rak", 8, "medium", 4, ["decor", "kitchen"]],
+        ["bor tangan", 5, "high", 3, ["tools"]],
+        ["obeng set", 6, "high", 3, ["tools", "gift"]],
+        ["lem tembak", 7, "medium", 4, ["tools", "decor"]],
+        ["meteran laser", 6, "medium", 4, ["tools"]],
+        ["kotak perkakas", 6, "medium", 3, ["tools"]],
+        ["solder listrik", 6, "medium", 3, ["tools"]]
+      ]
+    },
+    {
+      "name": "Kitchen appliances",
+      "keywords": [
+        ["air fryer", 5, "high", 5, ["kitchen", "gift"]],
+        ["rice cooker", 5, "high", 3, ["kitchen", "ramadan"]],
+        ["blender", 6, "high", 4, ["kitchen", "baking"]],
+        ["mixer kue", 7, "medium", 5, ["kitchen", "baking", "natal"]],
+        ["oven listrik", 5, "medium", 4, ["kitchen", "baking", "natal"]],
+        ["teko listrik", 7, "medium", 3, ["kitchen"]],
+        ["kompor portable", 6, "medium", 3, ["kitchen"]],
+        ["pemotong sayur", 8, "medium", 5, ["kitchen"]],
+        ["slow cooker", 6, "low", 4, ["kitchen", "ramadan"]],
+        ["pressure cooker", 6, "medium", 3, ["kitchen", "ramadan"]],
+        ["mesin kopi", 6, "medium", 5, ["kitchen", "gift"]],
+        ["waffle maker", 7, "low", 5, ["kitchen", "baking", "gift"]],
+        ["juicer", 6, "medium", 4, ["kitchen"]],
+        ["vacuum sealer", 7, "low", 4, ["kitchen"]],
+        ["timbangan dapur", 8, "medium", 4, ["kitchen", "baking", "natal"]],
+        ["cetakan kue", 9, "medium", 5, ["kitchen", "baking", "natal", "ramadan"]]
+      ]
+    }
+  ],
+  "events": [
+    {"name": "Harbolnas 11.11", "date": "2026-11-11", "tags": ["all"]},
+    {"name": "Harbolnas 12.12", "date": "2026-12-12", "tags": ["all"]},
+    {"name": "Christmas", "date": "2026-12-25", "tags": ["natal", "gift", "baking", "cozy", "decor"]},
+    {"name": "New Year", "date": "2027-01-01", "tags": ["gift", "decor", "kitchen"]},
+    {"name": "Chinese New Year (approx.)", "date": "2027-02-06", "tags": ["decor", "gift", "kitchen"]},
+    {"name": "Ramadan (approx.)", "date": "2027-02-08", "tags": ["ramadan", "baking", "gift", "decor"]}
+  ]
+}

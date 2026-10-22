@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trend Radar: Shopee Affiliate Picks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f1f4f2;--panel:#fff;--ink:#14211d;--mute:#5b6b66;--line:#d5ddd8;--teal:#1b6b5a;--indigo:#4b4fa3;--shopee:#ee4d2d;--warn:#fff4d6}
+@media (prefers-color-scheme:dark){:root{--paper:#101916;--panel:#17231f;--ink:#e9f0ed;--mute:#9db0a9;--line:#2a3b35;--teal:#5fc4ab;--indigo:#9ea3f0;--warn:#3a3217}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 Figtree,system-ui,sans-serif}
+main{max-width:980px;margin:0 auto;padding:28px 18px 60px}
+h1{font:800 clamp(34px,6vw,56px)/1 "Bricolage Grotesque",Figtree,sans-serif;margin:0 0 8px;letter-spacing:-.02em}
+.sub{color:var(--mute);max-width:60ch;margin:0 0 22px}
+.bar{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;margin-bottom:14px}
+.row-tabs{display:flex;gap:6px;flex-wrap:wrap}
+button,a.btn{font:inherit;cursor:pointer}
+.tab{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:99px;padding:6px 14px}
+.tab[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.banner{background:var(--warn);border-radius:8px;padding:10px 14px;margin-bottom:14px}
+.item{display:grid;grid-template-columns:48px 1fr auto;gap:6px 16px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:12px}
+.rank{font:800 34px/1 "Bricolage Grotesque",sans-serif;color:var(--teal)}
+.name{font:600 20px/1.2 "Bricolage Grotesque",sans-serif;margin:0}
+.cat{color:var(--mute);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chip{font-size:13px;border:1px solid var(--line);border-radius:6px;padding:2px 8px}
+.chip.up{border-color:var(--teal);color:var(--teal)}
+.chip.ev{border-color:var(--indigo);color:var(--indigo)}
+.side{text-align:right}
+.score{font:800 34px/1 "Bricolage Grotesque",sans-serif}
+.score small{font:500 13px Figtree;color:var(--mute);display:block}
+.spark{display:block;margin-left:auto;margin-top:6px}
+.go{grid-column:2/4;display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+a.btn{text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:14px}
+a.btn.shopee{background:var(--shopee);border-color:var(--shopee);color:#fff;font-weight:600}
+a.btn:hover{border-color:var(--ink)}
+details{grid-column:2/4;font-size:14px;color:var(--mute)}
+summary{cursor:pointer}
+.parts{display:grid;grid-template-columns:110px 1fr 40px;gap:4px 10px;align-items:center;margin-top:8px;max-width:420px}
+.track{height:8px;background:var(--line);border-radius:4px}.fill{height:8px;background:var(--teal);border-radius:4px}
+.empty{background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:24px}
+@media(max-width:620px){.item{grid-template-columns:36px 1fr}.side{grid-column:2;text-align:left;display:flex;gap:14px;align-items:center}.spark{margin:0}.go,details{grid-column:1/3}}
+@media (prefers-reduced-motion:no-preference){.fill{transition:width .4s}}
+</style>
+</head>
+<body>
+<main>
+<h1>Trend Radar</h1>
+<p class="sub">Eight home decor, tool and kitchen appliance picks a day, ranked by how fast Indonesians are searching for them. Pick one, check it on Shopee, make a video.</p>
+<div class="bar"><div class="row-tabs" id="days" aria-label="Choose day"></div><div class="row-tabs" id="filters"></div></div>
+<div id="banner"></div>
+<div id="list"></div>
+<p class="cat" id="foot"></p>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const LABEL={demand:"Search demand",growth:"Growing fast",commission:"Commission",competition:"Low competition",content:"Video potential",season:"Event coming"};
+const MAX={demand:20,growth:30,commission:15,competition:15,content:10,season:10};
+let dates=[],cache={},day=null,filter="all";
+const get=async u=>{const r=await fetch(u+"?v="+Date.now());if(!r.ok)throw new Error(r.status);return r.json()};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function spark(a){const w=96,h=28,m=Math.max(...a,1),lo=Math.min(...a);const p=a.map((v,i)=>`${(i/(a.length-1)*w).toFixed(1)},${(h-2-(v-lo)/((m-lo)||1)*(h-4)).toFixed(1)}`).join(" ");return `<svg class="spark" width="${w}" height="${h}" role="img" aria-label="Search interest, last 12 weeks"><polyline points="${p}" fill="none" stroke="var(--teal)" stroke-width="2"/></svg>`}
+function links(k){const q=encodeURIComponent(k);return `<a class="btn shopee" target="_blank" rel="noopener" href="https://shopee.co.id/search?keyword=${q}">Search Shopee</a>
+<a class="btn" target="_blank" rel="noopener" href="https://www.tiktok.com/search?q=${q}">TikTok</a>
+<a class="btn" target="_blank" rel="noopener" href="https://www.tokopedia.com/search?q=${q}">Tokopedia</a>
+<a class="btn" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${q}%20review">YouTube</a>
+<a class="btn" target="_blank" rel="noopener" href="https://trends.google.com/trends/explore?geo=ID&q=${q}">Google Trends</a>`}
+function card(it){
+ const parts=Object.keys(MAX).map(k=>`<span>${LABEL[k]}</span><div class="track"><div class="fill" style="width:${it.parts[k]/MAX[k]*100}%"></div></div><span>${Math.round(it.parts[k])}/${MAX[k]}</span>`).join("");
+ const g=it.growth_pct;
+ return `<article class="item"><div class="rank">${it.rank}</div>
+ <div><h2 class="name">${esc(it.keyword)}</h2><div class="cat">${esc(it.category)}</div>
+ <div class="chips">${it.rising?'<span class="chip up">Rising</span>':''}${it.upcoming?`<span class="chip ev">${esc(it.upcoming)}</span>`:''}<span class="chip">Competition: ${it.competition}</span><span class="chip">Commission ~${it.commission}%</span></div>
+ ${it.related.length?`<div class="cat">People also search: ${it.related.map(esc).join(", ")}</div>`:""}</div>
+ <div class="side"><div class="score">${it.score}<small>score / 100</small></div>${spark(it.spark)}<small class="cat">${g>=0?"+":""}${g}% this week</small></div>
+ <div class="go">${links(it.keyword)}</div>
+ <details><summary>Why this rank</summary>${it.why.length?"<ul>"+it.why.map(w=>`<li>${esc(w)}</li>`).join("")+"</ul>":""}<div class="parts">${parts}</div></details></article>`}
+function render(){
+ const d=cache[day];if(!d)return;
+ $("#banner").innerHTML=d.demo?'<div class="banner">This is demo data, not real trends. Run the daily harvest to replace it.</div>':"";
+ let items=d.items.filter(i=>filter==="all"||(filter==="rising"&&i.rising)||(filter==="upcoming"&&i.upcoming));
+ $("#list").innerHTML=items.length?items.map(card).join(""):'<div class="empty">Nothing matches this filter today. Try "All picks".</div>';
+ $("#foot").textContent="Updated "+new Date(d.generated_at).toLocaleString()+". Commission and competition are your own estimates from config.json.";
+}
+function tabs(){
+ $("#days").innerHTML=dates.map(x=>`<button class="tab" aria-pressed="${x===day}" data-d="${x}">${x===dates[0]?"Today":x.slice(5)}</button>`).join("");
+ $("#filters").innerHTML=[["all","All picks"],["rising","Rising"],["upcoming","Upcoming"]].map(([k,t])=>`<button class="tab" aria-pressed="${k===filter}" data-f="${k}">${t}</button>`).join("");
+}
+document.addEventListener("click",async e=>{const b=e.target.closest(".tab");if(!b)return;
+ if(b.dataset.d){day=b.dataset.d;if(!cache[day])cache[day]=await get("data/"+day+".json")}else filter=b.dataset.f;tabs();render()});
+(async()=>{try{dates=(await get("data/index.json")).dates;if(!dates.length)throw 0;day=dates[0];cache[day]=await get("data/"+day+".json");tabs();render()}
+catch(e){$("#list").innerHTML='<div class="empty"><strong>No data yet.</strong> Open the Actions tab of your GitHub repository, choose "Daily harvest" and press Run workflow. Refresh this page after about 5 minutes.</div>'}})();
+</script>
+</body>
+</html>
