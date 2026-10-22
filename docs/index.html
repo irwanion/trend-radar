@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trend Radar: Shopee Affiliate Picks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080b11;--panel:#111827;--line:#1f2937;--text:#e5e7eb;--mute:#9ca3af;--orange:#ee4d2d;--green:#10b981;--amber:#f59e0b;--red:#f87171;--indigo:#818cf8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 "Plus Jakarta Sans",system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:20px}
+h1{font-size:24px;margin:0;font-weight:800}
+h1 span{color:var(--orange)}
+h2{font-size:15px;margin:0 0 4px}
+.sub{color:var(--mute);font-size:12px}
+header{margin-bottom:16px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.status{padding:10px 14px;border-radius:10px;margin-bottom:16px;font-size:13px;border:1px solid var(--line)}
+.status.ok{background:#06251c;border-color:#0b5b43;color:#6ee7b7}
+.status.warn{background:#2b1d05;border-color:#7a5210;color:#fcd34d}
+.status.bad{background:#2a0d0d;border-color:#7a1f1f;color:#fca5a5}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:16px}
+.stat small{color:var(--mute)}
+.stat b{display:block;font-size:22px;font-weight:800}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.bar input,.bar select{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.bar input{flex:1;min-width:180px}
+.chip{background:var(--line);border:0;border-radius:8px;padding:6px 12px;cursor:pointer;color:var(--mute)}
+.chip[aria-pressed=true]{background:var(--orange);color:#fff}
+.grid2{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin:16px 0}
+@media(max-width:820px){.grid2{grid-template-columns:1fr}}
+#chart{width:100%;height:auto;display:block;background:#0b0f19;border-radius:10px;margin-top:8px}
+#chart circle{cursor:pointer;fill-opacity:.7;stroke-width:2}
+#chart text{fill:var(--mute);font-size:10px}
+.kw{font-size:20px;font-weight:800;margin:6px 0}
+.pill{display:inline-block;background:#1f2937;border-radius:6px;padding:1px 8px;font-size:12px;color:var(--mute)}
+.pill.low,.pill.ev{color:var(--green)}.pill.medium{color:var(--amber)}.pill.high{color:var(--red)}.pill.ev{color:var(--indigo)}
+.btns{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.btn{display:inline-block;border:1px solid var(--line);background:#1b2433;border-radius:8px;padding:6px 10px;font-size:12px;font-weight:600;cursor:pointer}
+.btn.main{background:var(--orange);border-color:var(--orange);color:#fff}
+.btn:hover{filter:brightness(1.15)}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:820px}
+th{text-align:left;color:var(--mute);font-weight:500;font-size:12px;padding:8px 10px;border-bottom:1px solid var(--line)}
+td{padding:10px;border-bottom:1px solid #182030;vertical-align:middle}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:#0f1624}
+.up{color:var(--green);font-weight:700}.down{color:var(--red);font-weight:700}
+.meter{display:inline-block;width:60px;height:6px;background:var(--line);border-radius:3px;overflow:hidden;vertical-align:middle;margin-right:6px}
+.meter i{display:block;height:100%;background:var(--orange)}
+.empty{padding:30px;text-align:center;color:var(--mute)}
+#drawer{position:fixed;inset:0;background:#000a;display:none;justify-content:flex-end;z-index:10}
+#drawer.open{display:flex}
+#drawer .side{width:min(520px,100%);height:100%;overflow-y:auto;background:#0b0f19;border-left:1px solid var(--line);padding:20px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px;margin-top:12px}
+.box pre{white-space:pre-wrap;margin:6px 0;font:inherit;color:#d1d5db}
+.box ul{margin:6px 0 0;padding-left:18px}
+.parts{display:grid;grid-template-columns:110px 1fr 44px;gap:4px 10px;align-items:center;margin-top:8px}
+.track{height:8px;background:var(--line);border-radius:4px}.track i{display:block;height:8px;background:var(--orange);border-radius:4px}
+#toast{position:fixed;bottom:18px;right:18px;background:var(--green);color:#04210f;font-weight:700;padding:8px 14px;border-radius:10px;display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Trend<span>Radar</span></h1>
+    <div class="sub">Eight home decor, tool and kitchen appliance picks a day, ranked by how fast Indonesians are searching for them.</div>
+  </header>
+
+  <div id="status" class="status" role="status"></div>
+
+  <div class="stats">
+    <div class="panel stat"><small>Picks today</small><b id="s-count">-</b></div>
+    <div class="panel stat"><small>Rising searches</small><b id="s-rising">-</b></div>
+    <div class="panel stat"><small>Average commission (your estimate)</small><b id="s-comm">-</b></div>
+    <div class="panel stat"><small>Last updated</small><b id="s-date" style="font-size:16px">-</b></div>
+  </div>
+
+  <div class="bar"><span id="days" aria-label="Choose day"></span></div>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Search a product" aria-label="Search">
+    <span id="cats"></span>
+    <select id="mode" aria-label="Filter">
+      <option value="all">All picks</option>
+      <option value="rising">Rising only</option>
+      <option value="event">Upcoming event only</option>
+    </select>
+    <select id="sort" aria-label="Sort by">
+      <option value="rank">Sort: Score</option>
+      <option value="growth_pct">Sort: Growth</option>
+      <option value="commission">Sort: Commission</option>
+      <option value="name">Sort: Name (A-Z)</option>
+    </select>
+  </div>
+
+  <div class="grid2">
+    <div class="panel">
+      <h2>Opportunity map</h2>
+      <div class="sub">Right = searches growing faster. Up = higher score. Bigger bubble = higher commission. Click a bubble for details.</div>
+      <svg id="chart" viewBox="0 0 600 260" role="img" aria-label="Scatter chart of growth against score"></svg>
+    </div>
+    <div class="panel" id="top"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Products <span class="sub" id="shown"></span></h2>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>#</th><th>Product</th><th>Category</th><th>Score</th><th>Growth</th><th>12 weeks</th><th>Estimates</th><th></th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div class="empty" id="none" hidden>No products match your filter.</div>
+  </div>
+  <p class="sub" id="foot"></p>
+</div>
+
+<div id="drawer" aria-hidden="true"><div class="side" id="side"></div></div>
+<div id="toast">Copied</div>
+
+<script>
+const CONFIG = {DATA: "data/", STALE_DAYS: 2, SHOPEE: "https://shopee.co.id/search?keyword="};
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const LABEL = {demand:"Search demand", growth:"Growing fast", commission:"Commission", competition:"Low competition", content:"Video potential", season:"Event coming"};
+const MAX = {demand:20, growth:30, commission:15, competition:15, content:10, season:10};
+const COLORS = ["#10b981", "#f59e0b", "#818cf8", "#f472b6"];
+let dates = [], cache = {}, day = null, cat = "all", cats = [];
+
+const get = async u => { const r = await fetch(CONFIG.DATA + u + "?v=" + Date.now(), {cache: "no-store"}); if (!r.ok) throw new Error(r.status); return r.json(); };
+const G = g => `<span class="${g >= 0 ? "up" : "down"}">${g >= 0 ? "+" : ""}${g}%</span>`;
+const shopee = k => CONFIG.SHOPEE + encodeURIComponent(k);
+const links = k => { const q = encodeURIComponent(k); return `<a class="btn main" target="_blank" rel="noopener" href="${shopee(k)}">Search Shopee</a>
+<a class="btn" target="_blank" rel="noopener" href="https://www.tiktok.com/search?q=${q}">TikTok</a>
+<a class="btn" target="_blank" rel="noopener" href="https://www.tokopedia.com/search?q=${q}">Tokopedia</a>
+<a class="btn" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${q}%20review">YouTube</a>
+<a class="btn" target="_blank" rel="noopener" href="https://trends.google.com/trends/explore?geo=ID&q=${q}">Google Trends</a>`; };
+
+function spark(a) {
+  a = a || [];
+  if (a.length < 2) return '<span class="sub">no history</span>';
+  const w = 90, h = 24, mn = Math.min(...a), mx = Math.max(...a), r = (mx - mn) || 1;
+  const pts = a.map((v, i) => `${(i / (a.length - 1) * w).toFixed(1)},${(h - 2 - (v - mn) / r * (h - 4)).toFixed(1)}`).join(" ");
+  return `<svg width="${w}" height="${h}" role="img" aria-label="Search interest, last 12 weeks"><polyline points="${pts}" fill="none" stroke="${a[a.length - 1] >= a[0] ? "#10b981" : "#f87171"}" stroke-width="2"/></svg>`;
+}
+
+function visible() {
+  const q = $("#q").value.trim().toLowerCase(), s = $("#sort").value, m = $("#mode").value;
+  const l = (cache[day] ? cache[day].items : []).filter(i =>
+    (cat === "all" || i.category === cat) && (m === "all" || (m === "rising" && i.rising) || (m === "event" && i.upcoming)) &&
+    (!q || i.keyword.toLowerCase().includes(q)));
+  l.sort((a, b) => s === "name" ? a.keyword.localeCompare(b.keyword) : s === "rank" ? a.rank - b.rank : b[s] - a[s]);
+  return l;
+}
+
+function status(d, err) {
+  const el = $("#status");
+  if (err) { el.className = "status bad"; el.innerHTML = "<b>No data yet.</b> In your GitHub repository open the Actions tab, choose “Daily harvest” and press Run workflow. Refresh this page after about 5 minutes."; return; }
+  const age = (Date.now() - new Date(d.generated_at).getTime()) / 864e5;
+  if (d.demo) { el.className = "status warn"; el.textContent = "This is demo data, not real trends. Run the daily harvest to replace it."; }
+  else if (age > CONFIG.STALE_DAYS && day === dates[0]) { el.className = "status warn"; el.textContent = `The newest data is ${Math.floor(age)} days old. Check that the daily harvest is running in the Actions tab.`; }
+  else { el.className = "status ok"; el.textContent = `Live Google Trends data for ${d.date}.`; }
+}
+
+function render() {
+  const d = cache[day]; if (!d) return;
+  status(d);
+  $("#days").innerHTML = dates.map(x => `<button class="chip" aria-pressed="${x === day}" data-d="${x}">${x === dates[0] ? "Today" : x.slice(5)}</button>`).join(" ");
+  cats = [...new Set(d.items.map(i => i.category))];
+  $("#cats").innerHTML = ["all", ...cats].map(c => `<button class="chip" aria-pressed="${c === cat}" data-c="${esc(c)}">${c === "all" ? "All categories" : esc(c)}</button>`).join(" ");
+  $("#s-count").textContent = d.items.length;
+  $("#s-rising").textContent = d.items.filter(i => i.rising).length;
+  $("#s-comm").textContent = d.items.length ? "~" + (d.items.reduce((t, i) => t + i.commission, 0) / d.items.length).toFixed(1) + "%" : "-";
+  $("#s-date").textContent = new Date(d.generated_at).toLocaleString("en-GB", {dateStyle: "medium", timeStyle: "short"});
+  $("#foot").textContent = "Commission and competition are your own estimates from harvester/config.json. Shopee does not publish them, so check your Shopee Affiliate dashboard.";
+
+  const list = visible();
+  $("#shown").textContent = `(showing ${list.length})`;
+  $("#none").hidden = list.length > 0;
+  $("#rows").innerHTML = list.map(i => `<tr data-k="${esc(i.keyword)}">
+    <td><b>${i.rank}</b></td>
+    <td><b>${esc(i.keyword)}</b>${i.rising ? ' <span class="pill ev">Rising</span>' : ""}${i.upcoming ? ` <span class="pill ev">${esc(i.upcoming)}</span>` : ""}</td>
+    <td><span class="pill">${esc(i.category)}</span></td>
+    <td><span class="meter"><i style="width:${Math.min(i.score, 100)}%"></i></span>${i.score}</td>
+    <td>${G(i.growth_pct)}</td><td>${spark(i.spark)}</td>
+    <td><span class="pill ${esc(i.competition)}">${esc(i.competition)} competition</span> <span class="pill">~${i.commission}%</span></td>
+    <td><a class="btn main" target="_blank" rel="noopener" href="${shopee(i.keyword)}">Shopee</a></td></tr>`).join("");
+
+  const t = list[0];
+  $("#top").innerHTML = "<h2>Top pick right now</h2>" + (t ? `<span class="pill">${esc(t.category)}</span><div class="kw">${esc(t.keyword)}</div>
+    <div>Score <b>${t.score}</b> / 100 &nbsp; Growth ${G(t.growth_pct)}</div><div style="margin-top:8px">${spark(t.spark)}</div>
+    ${t.why.length ? `<ul class="sub" style="padding-left:18px">${t.why.map(w => `<li>${esc(w)}</li>`).join("")}</ul>` : ""}
+    <div class="btns">${links(t.keyword)}<button class="btn" data-k="${esc(t.keyword)}">Video ideas</button></div>` : '<div class="sub">Nothing to show.</div>');
+  chart(list);
+}
+
+function chart(list) {
+  const W = 600, H = 260, L = 40, B = 24, R = 14, T = 12;
+  const gs = list.map(i => i.growth_pct), gmin = Math.min(0, ...gs), gmax = Math.max(10, ...gs);
+  const x = g => L + (g - gmin) / ((gmax - gmin) || 1) * (W - L - R), y = v => H - B - Math.min(v, 100) / 100 * (H - B - T);
+  let s = `<line x1="${L}" y1="${H - B}" x2="${W - R}" y2="${H - B}" stroke="#374151"/><line x1="${L}" y1="${T}" x2="${L}" y2="${H - B}" stroke="#374151"/>
+    <text x="${W / 2}" y="${H - 6}" text-anchor="middle">Growth this week (%)</text><text x="12" y="${H / 2}" transform="rotate(-90 12 ${H / 2})" text-anchor="middle">Score</text>
+    <text x="${L - 4}" y="${T + 6}" text-anchor="end">100</text><text x="${L - 4}" y="${H - B}" text-anchor="end">0</text>`;
+  list.forEach(i => {
+    const c = COLORS[cats.indexOf(i.category) % COLORS.length];
+    s += `<circle data-k="${esc(i.keyword)}" cx="${x(i.growth_pct).toFixed(1)}" cy="${y(i.score).toFixed(1)}" r="${Math.max(6, i.commission * 1.4)}" fill="${c}" stroke="${c}"><title>${esc(i.keyword)}: score ${i.score}, growth ${i.growth_pct}%</title></circle>`;
+  });
+  $("#chart").innerHTML = s;
+}
+
+/* Starter templates for videos. Edit them; they are not AI-written. */
+function ideas(k) {
+  const hook = `Lagi cari ${k}? Lihat ini dulu sebelum checkout!`;
+  return {hook,
+    script: `1. Hook (0-3 dtk): "${hook}"\n2. Tunjukkan produk dipakai, satu manfaat utama (3-15 dtk)\n3. Sebut harga atau ukurannya (15-25 dtk)\n4. Ajakan: "Cek keranjang kuning sekarang!" (25-30 dtk)`,
+    prompt: `Vertical 9:16 cinematic close-up of ${k} in a bright, cozy home setting, warm natural light, smooth slow camera push-in, realistic, no text`};
+}
+
+function openDrawer(k) {
+  const i = cache[day].items.find(x => x.keyword === k); if (!i) return;
+  const v = ideas(k);
+  const parts = Object.keys(MAX).map(p => `<span>${LABEL[p]}</span><div class="track"><i style="width:${(i.parts[p] || 0) / MAX[p] * 100}%"></i></div><span>${Math.round(i.parts[p] || 0)}/${MAX[p]}</span>`).join("");
+  $("#side").innerHTML = `<div style="display:flex;justify-content:space-between;align-items:start;gap:10px">
+      <div><span class="pill">${esc(i.category)}</span><h2 style="font-size:20px;margin-top:6px">#${i.rank} ${esc(i.keyword)}</h2></div><button class="btn" id="x">Close</button></div>
+    <div class="box">Score <b>${i.score}</b> / 100 &nbsp; Growth ${G(i.growth_pct)} &nbsp; <span class="pill ${esc(i.competition)}">${esc(i.competition)} competition</span> <span class="pill">~${i.commission}% commission</span>
+      <div style="margin-top:8px">${spark(i.spark)}</div></div>
+    <div class="btns">${links(k)}</div>
+    <div class="box"><b>Why this rank</b>${i.why.length ? "<ul>" + i.why.map(w => `<li>${esc(w)}</li>`).join("") + "</ul>" : ""}<div class="parts">${parts}</div></div>
+    ${i.related.length ? `<div class="box"><b>People also search</b><div style="margin-top:6px">${i.related.map(r => `<a class="pill" target="_blank" rel="noopener" href="${shopee(r)}">${esc(r)}</a>`).join(" ")}</div></div>` : ""}
+    <div class="box"><b>Hook</b><pre>${esc(v.hook)}</pre><button class="btn" data-copy="${esc(v.hook)}">Copy hook</button></div>
+    <div class="box"><b>Script outline</b><pre>${esc(v.script)}</pre><button class="btn" data-copy="${esc(v.script)}">Copy script</button></div>
+    <div class="box"><b>AI video prompt (Kling or similar)</b><pre>${esc(v.prompt)}</pre><button class="btn" data-copy="${esc(v.prompt)}">Copy prompt</button></div>`;
+  $("#drawer").classList.add("open");
+}
+const closeDrawer = () => $("#drawer").classList.remove("open");
+
+function copy(t) {
+  (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).catch(() => {
+    const a = document.createElement("textarea"); a.value = t; document.body.appendChild(a); a.select(); document.execCommand("copy"); a.remove();
+  });
+  const el = $("#toast"); el.style.display = "block"; setTimeout(() => el.style.display = "none", 1500);
+}
+
+document.addEventListener("click", async e => {
+  const t = e.target;
+  if (t.id === "drawer" || t.id === "x") return closeDrawer();
+  const c = t.closest("[data-copy]"); if (c) return copy(c.dataset.copy);
+  const d = t.closest("[data-d]");
+  if (d) { day = d.dataset.d; try { if (!cache[day]) cache[day] = await get(day + ".json"); } catch (x) { return status(null, true); } return render(); }
+  const ct = t.closest(".chip[data-c]"); if (ct) { cat = ct.dataset.c; return render(); }
+  if (t.closest("a")) return;
+  const k = t.closest("[data-k]"); if (k) openDrawer(k.dataset.k);
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); });
+["q", "mode", "sort"].forEach(id => $("#" + id).addEventListener(id === "q" ? "input" : "change", render));
+
+(async () => {
+  try {
+    dates = (await get("index.json")).dates;
+    if (!dates.length) throw 0;
+    day = dates[0]; cache[day] = await get(day + ".json");
+    render();
+  } catch (e) { status(null, true); }
+})();
+</script>
+</body>
+</html>
