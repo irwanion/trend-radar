@@ -1,5 +1,6 @@
 {
   "_help": "Edit this file to change what the radar watches. Each keyword line is: [search term, estimated commission %, competition (low/medium/high), content potential 1-5, tags]. Commission and competition are YOUR estimates (Shopee does not publish them): check your Shopee Affiliate dashboard and update them.",
+  "video_brief": "Act as a Senior Affiliate Video Director, Commercial Storyboard Artist, Product Marketing Expert, and AI Video Production Specialist.\nCreate a highly engaging affiliate marketing script and AI Video prompt designed for TikTok, YouTube Shorts, Instagram Reels, and Facebook Reels.\n\nLANGUAGE: Bahasa Indonesia\n\nOBJECTIVE:\n\n- PRODUCT ANALYSIS:\n1. Product name\n2. Product category\n3. Main function\n4. Unique selling points\n5. Premium visual details\n6. Target customer\n\n- HOOK: Generate a compelling hook line related to the product, be creative.\n\n- SCRIPT OUTLINE:\n1. Hook (0-3 sec)\n2. Show the product in use, highlight one main benefit (3-15 sec)\n3. Mention the price or size (15-25 sec)\n4. Call to action: \"Check the yellow cart now!\" (25-30 sec)",
   "anchor": "panci",
   "max_items_per_day": 8,
   "max_per_category": 5,

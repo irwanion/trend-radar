@@ -102,19 +102,29 @@ def call_model(prompt):
     return call_gemini(prompt) if os.environ.get("GEMINI_API_KEY") else call_claude(prompt)
 
 
+AN_KEYS = ["name", "category", "function", "selling_points", "visual_details", "target_customer"]
+
+
 def make_prompt(items):
     lines = "\n".join(json.dumps(dict(keyword=i["keyword"], category=i["category"], why_it_ranks=i["why"],
                                       people_also_search=i["related"], upcoming_event=i["upcoming"]),
                                  ensure_ascii=False) for i in items)
-    return (f"You write short-video ideas for an Indonesian Shopee affiliate. {BRIEF}\n\n"
+    return ("You write short-video ideas for an Indonesian Shopee affiliate.\n\n"
+            f"{BRIEF}\n\n"
+            "HOW TO ANSWER (this part decides the format):\n"
             "For EACH product below write:\n"
+            "- analysis: an object with the keys name, category, function, selling_points (2-3 items), visual_details, "
+            "target_customer. Short, Bahasa Indonesia\n"
             "- hook: one punchy opening line, max 12 words, Bahasa Indonesia\n"
-            "- script: exactly 4 short beats (strings), each starting with a time range, Bahasa Indonesia, "
-            "the last one a call to check the yellow basket (keranjang kuning)\n"
-            "- prompt: one English paragraph for an AI video generator, vertical 9:16, no text and no faces in the shot\n\n"
-            "Rules: the products are only search keywords, so do not invent brand names, prices, discounts, "
-            "specifications, health claims or reviews. If upcoming_event is set, use it naturally.\n"
-            'Return ONLY a JSON list, nothing else: [{"keyword": "...", "hook": "...", "script": ["...", "...", "...", "..."], "prompt": "..."}]\n\n'
+            "- script: exactly 4 short beats (strings), each starting with its time range, Bahasa Indonesia, following the "
+            "script outline above; the last beat is the call to check the yellow cart (keranjang kuning)\n"
+            "- prompt: one English paragraph for the AI video generator (Kling), vertical 9:16, no text and no faces in the shot\n\n"
+            "Rules: you only get search keywords. You cannot see product images, so never claim you did. "
+            "Do not invent brand names, discounts, specifications, health claims or reviews. "
+            "You do not know the real price or size, so where the outline asks for price or size, write the placeholder "
+            "[harga] or [ukuran] for the creator to fill in. If upcoming_event is set, use it naturally.\n"
+            'Return ONLY a JSON list, nothing else: [{"keyword": "...", "analysis": {...}, "hook": "...", '
+            '"script": ["...", "...", "...", "..."], "prompt": "..."}]\n\n'
             f"Products, one per line:\n{lines}")
 
 
@@ -125,8 +135,19 @@ def parse_ideas(text, keywords, model):
         s = d.get("script")
         if (d.get("keyword") in keywords and isinstance(d.get("hook"), str) and isinstance(d.get("prompt"), str)
                 and isinstance(s, list) and s and all(isinstance(x, str) for x in s)):
-            ok[d["keyword"]] = dict(hook=d["hook"].strip()[:200], script=[x.strip()[:300] for x in s[:6]],
-                                    prompt=d["prompt"].strip()[:800], model=model)
+            idea = dict(hook=d["hook"].strip()[:200], script=[x.strip()[:300] for x in s[:6]],
+                        prompt=d["prompt"].strip()[:800], model=model)
+            a = d.get("analysis")
+            if isinstance(a, dict):
+                an = {}
+                for k in AN_KEYS:
+                    v = a.get(k)
+                    v = ", ".join(map(str, v)) if isinstance(v, list) else str(v or "")
+                    if v.strip():
+                        an[k] = v.strip()[:300]
+                if an:
+                    idea["analysis"] = an
+            ok[d["keyword"]] = idea
     return ok
 
 
