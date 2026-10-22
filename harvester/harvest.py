@@ -4,7 +4,7 @@ Asks Google Trends (Indonesia) how interest in each keyword in config.json is mo
 scores every keyword, and writes the best 8 to docs/data/. Run: python harvester/harvest.py
 Add --demo to create fake data (no internet needed) to preview the dashboard.
 """
-import datetime as dt, json, random, sys, time
+import datetime as dt, json, os, random, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -12,6 +12,13 @@ CFG = json.loads((ROOT / "harvester" / "config.json").read_text(encoding="utf-8"
 OUT = ROOT / "docs" / "data"
 DEMO = "--demo" in sys.argv
 COMP = {"low": 1.0, "medium": 0.55, "high": 0.2}
+GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-3-flash-preview"]  # tried in this order, first one that works wins
+CLAUDE_MODEL = "claude-haiku-5-5"  # only used if you set ANTHROPIC_API_KEY instead
+# Describes your videos to the AI. To change it, add a "video_brief" line to config.json.
+BRIEF = CFG.get("video_brief") or (
+    "Videos are 15-30 second vertical clips for Shopee Video and YouTube Shorts. The creator never appears "
+    "on camera: every shot is made with an AI video generator (Kling), so describe only shots such a tool "
+    "does well (products, hands, kitchens, rooms, food, close-ups). The voiceover is casual Bahasa Indonesia.")
 
 
 def mean(x):
@@ -64,6 +71,79 @@ def fetch_demo(keywords):
         s = [max(0, base * (1 + drift * i / 90) + random.gauss(0, base * 0.12)) for i in range(90)]
         out[k] = {"series": s, "related": [k + " murah", k + " terbaik"]}
     return out
+
+
+def call_gemini(prompt):
+    from google import genai
+    from google.genai import types
+    client = genai.Client()  # reads your key from the GEMINI_API_KEY secret
+    names = [n for n in [os.environ.get("GEMINI_MODEL")] + GEMINI_MODELS if n]
+    last = None
+    for name in names:
+        try:
+            r = client.models.generate_content(model=name, contents=prompt,
+                                               config=types.GenerateContentConfig(response_mime_type="application/json"))
+            return r.text, name
+        except Exception as e:
+            print(f"Gemini model {name} did not work: {e}")
+            last = e
+    raise last
+
+
+def call_claude(prompt):
+    import anthropic  # reads your key from the ANTHROPIC_API_KEY secret
+    msg = anthropic.Anthropic().messages.create(
+        model=CLAUDE_MODEL, max_tokens=4000, messages=[{"role": "user", "content": prompt}])
+    return "".join(b.text for b in msg.content if getattr(b, "type", "") == "text"), CLAUDE_MODEL
+
+
+def call_model(prompt):
+    """Returns (answer text, model name). Gemini is used when GEMINI_API_KEY is set, otherwise Claude."""
+    return call_gemini(prompt) if os.environ.get("GEMINI_API_KEY") else call_claude(prompt)
+
+
+def make_prompt(items):
+    lines = "\n".join(json.dumps(dict(keyword=i["keyword"], category=i["category"], why_it_ranks=i["why"],
+                                      people_also_search=i["related"], upcoming_event=i["upcoming"]),
+                                 ensure_ascii=False) for i in items)
+    return (f"You write short-video ideas for an Indonesian Shopee affiliate. {BRIEF}\n\n"
+            "For EACH product below write:\n"
+            "- hook: one punchy opening line, max 12 words, Bahasa Indonesia\n"
+            "- script: exactly 4 short beats (strings), each starting with a time range, Bahasa Indonesia, "
+            "the last one a call to check the yellow basket (keranjang kuning)\n"
+            "- prompt: one English paragraph for an AI video generator, vertical 9:16, no text and no faces in the shot\n\n"
+            "Rules: the products are only search keywords, so do not invent brand names, prices, discounts, "
+            "specifications, health claims or reviews. If upcoming_event is set, use it naturally.\n"
+            'Return ONLY a JSON list, nothing else: [{"keyword": "...", "hook": "...", "script": ["...", "...", "...", "..."], "prompt": "..."}]\n\n'
+            f"Products, one per line:\n{lines}")
+
+
+def parse_ideas(text, keywords, model):
+    data = json.loads(text[text.find("["):text.rfind("]") + 1])
+    ok = {}
+    for d in data:
+        s = d.get("script")
+        if (d.get("keyword") in keywords and isinstance(d.get("hook"), str) and isinstance(d.get("prompt"), str)
+                and isinstance(s, list) and s and all(isinstance(x, str) for x in s)):
+            ok[d["keyword"]] = dict(hook=d["hook"].strip()[:200], script=[x.strip()[:300] for x in s[:6]],
+                                    prompt=d["prompt"].strip()[:800], model=model)
+    return ok
+
+
+def add_ideas(items):
+    """Asks an AI model for a hook, script and video prompt per product. Never stops the daily harvest."""
+    if DEMO or not (os.environ.get("GEMINI_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")):
+        print("Video ideas skipped (no GEMINI_API_KEY set). The dashboard uses its starter templates.")
+        return
+    try:
+        text, model = call_model(make_prompt(items))
+        ideas = parse_ideas(text, {i["keyword"] for i in items}, model)
+        for it in items:
+            if it["keyword"] in ideas:
+                it["ideas"] = ideas[it["keyword"]]
+        print(f"Video ideas written for {len(ideas)} of {len(items)} products ({model}).")
+    except Exception as e:
+        print("Video ideas failed, the harvest continues without them:", e)
 
 
 def pct_rank(vals):
@@ -141,6 +221,7 @@ def main():
     items = build_items(raw, today)
     if not items:
         sys.exit("No data came back from Google Trends. Nothing was changed. Try again later.")
+    add_ideas(items)
     OUT.mkdir(parents=True, exist_ok=True)
     payload = dict(date=today.isoformat(), generated_at=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                    demo=DEMO, items=items)
