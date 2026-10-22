@@ -225,7 +225,8 @@ function ideas(k) {
 
 function openDrawer(k) {
   const i = cache[day].items.find(x => x.keyword === k); if (!i) return;
-  const v = ideas(k);
+  const ai = i.ideas && Array.isArray(i.ideas.script);
+  const v = ai ? {hook: i.ideas.hook, script: i.ideas.script.map((s, n) => `${n + 1}. ${s}`).join("\n"), prompt: i.ideas.prompt} : ideas(k);
   const parts = Object.keys(MAX).map(p => `<span>${LABEL[p]}</span><div class="track"><i style="width:${(i.parts[p] || 0) / MAX[p] * 100}%"></i></div><span>${Math.round(i.parts[p] || 0)}/${MAX[p]}</span>`).join("");
   $("#side").innerHTML = `<div style="display:flex;justify-content:space-between;align-items:start;gap:10px">
       <div><span class="pill">${esc(i.category)}</span><h2 style="font-size:20px;margin-top:6px">#${i.rank} ${esc(i.keyword)}</h2></div><button class="btn" id="x">Close</button></div>
@@ -234,7 +235,8 @@ function openDrawer(k) {
     <div class="btns">${links(k)}</div>
     <div class="box"><b>Why this rank</b>${i.why.length ? "<ul>" + i.why.map(w => `<li>${esc(w)}</li>`).join("") + "</ul>" : ""}<div class="parts">${parts}</div></div>
     ${i.related.length ? `<div class="box"><b>People also search</b><div style="margin-top:6px">${i.related.map(r => `<a class="pill" target="_blank" rel="noopener" href="${shopee(r)}">${esc(r)}</a>`).join(" ")}</div></div>` : ""}
-    <div class="box"><b>Hook</b><pre>${esc(v.hook)}</pre><button class="btn" data-copy="${esc(v.hook)}">Copy hook</button></div>
+    <div class="sub" style="margin-top:12px">${ai ? `Written by AI (${esc(i.ideas.model || "unknown model")}) for ${esc(cache[day].date)}. Read and edit it before you use it.` : "Starter template. AI-written ideas appear after the next daily harvest, once your API key is set up."}</div>
+    <div class="box" style="margin-top:6px"><b>Hook</b><pre>${esc(v.hook)}</pre><button class="btn" data-copy="${esc(v.hook)}">Copy hook</button></div>
     <div class="box"><b>Script outline</b><pre>${esc(v.script)}</pre><button class="btn" data-copy="${esc(v.script)}">Copy script</button></div>
     <div class="box"><b>AI video prompt (Kling or similar)</b><pre>${esc(v.prompt)}</pre><button class="btn" data-copy="${esc(v.prompt)}">Copy prompt</button></div>`;
   $("#drawer").classList.add("open");
