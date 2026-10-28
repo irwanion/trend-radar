@@ -1,0 +1,497 @@
+{
+ "date": "2026-10-28",
+ "generated_at": "2026-10-28T01:33:40Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 79,
+   "parts": {
+    "demand": 13.5,
+    "growth": 27.1,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 7.7
+   },
+   "growth_pct": 69,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    0.0,
+    0.0,
+    1.4,
+    0.0,
+    1.2,
+    3.7,
+    1.7,
+    2.9,
+    4.2,
+    6.4,
+    9.5,
+    11.3
+   ],
+   "related": [
+    "pohon natal kreatif",
+    "cara membuat pohon natal",
+    "pohon natal pink"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 69% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 14 days"
+   ],
+   "rank": 1,
+   "ideas": {
+    "hook": "Bikin rumah makin estetik buat Harbolnas 11.11 pakai pohon natal ini!",
+    "script": [
+     "0-3 sec: Sambut Harbolnas 11.11 dengan dekorasi pohon natal yang paling estetik tahun ini!",
+     "3-15 sec: Lihat daunnya yang super lebat dan mudah banget dirakit, bikin suasana rumah langsung hangat.",
+     "15-25 sec: Tersedia dalam [ukuran] dengan penawaran spesial cuma [harga] saja khusus promo 11.11.",
+     "25-30 sec: Stok terbatas, yuk klik keranjang kuning sekarang sebelum kehabisan!"
+    ],
+    "prompt": "Cinematic vertical 9:16 shot of a lush, green Christmas tree decorated with warm glowing LED lights and gold ornaments in a cozy, sunlit living room. No people, no text.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Pohon Natal Estetik",
+     "category": "Home decor & tools",
+     "function": "Dekorasi hari raya natal",
+     "selling_points": "Daun lebat dan tidak mudah rontok, Mudah dirakit dan disimpan kembali, Tersedia berbagai pilihan model estetik",
+     "visual_details": "Tekstur daun hijau alami dengan detail salju buatan dan lampu LED hangat",
+     "target_customer": "Pemilik rumah, dekorator interior"
+    }
+   }
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 78,
+   "parts": {
+    "demand": 10.3,
+    "growth": 28.1,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 7.7
+   },
+   "growth_pct": 70,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    3.0,
+    8.3,
+    2.5,
+    3.7,
+    1.0,
+    7.8,
+    1.4,
+    4.6,
+    1.4,
+    3.6,
+    6.8,
+    6.6
+   ],
+   "related": [
+    "cetakan kue pai",
+    "cetakan kue kaktus",
+    "harga cetakan kue lumpur"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 70% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 14 days"
+   ],
+   "rank": 2,
+   "ideas": {
+    "hook": "Mau hasil kue secantik di cafe? Rahasianya cuma cetakan ini!",
+    "script": [
+     "0-3 sec: Rahasia bikin kue cantik dan rapi buat camilan keluarga di rumah!",
+     "3-15 sec: Cetakan ini anti lengket, sekali angkat langsung lepas dan hasilnya bener-bener presisi.",
+     "15-25 sec: Ukurannya [ukuran] pas banget buat oven kamu, harganya cuma [harga] di Harbolnas 11.11.",
+     "25-30 sec: Buruan checkout di keranjang kuning sebelum promo 11.11 berakhir!"
+    ],
+    "prompt": "Vertical 9:16 close-up of a golden-brown cake being smoothly popped out of a professional metal baking mold, steam rising, high-end food photography. No people, no text.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Cetakan Kue Anti Lengket",
+     "category": "Kitchen appliances",
+     "function": "Membentuk adonan kue dengan rapi",
+     "selling_points": "Material food grade anti lengket, Tahan panas tinggi dan awet, Hasil kue matang merata dengan bentuk presisi",
+     "visual_details": "Permukaan metalik halus dengan berbagai bentuk kreatif seperti kaktus atau bunga",
+     "target_customer": "Ibu rumah tangga, hobi baking"
+    }
+   }
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 74,
+   "parts": {
+    "demand": 9.7,
+    "growth": 24.2,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 7.7
+   },
+   "growth_pct": 31,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    27.7,
+    24.7,
+    15.7,
+    26.4,
+    42.8,
+    27.7,
+    15.2,
+    1.4,
+    2.0,
+    4.9,
+    5.1,
+    5.2
+   ],
+   "related": [
+    "how to use a slow cooker"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 31% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 11.11 in 14 days"
+   ],
+   "rank": 3,
+   "ideas": {
+    "hook": "Masak daging selembut kapas nggak perlu ribet nungguin di dapur!",
+    "script": [
+     "0-3 sec: Cara paling santai masak daging empuk atau MPASI bergizi buat si kecil!",
+     "3-15 sec: Tinggal masukin bahan, set waktunya, dan tinggal tidur. Hasilnya bener-bener lembut dan juicy.",
+     "15-25 sec: Kapasitas [ukuran] ini lagi diskon besar jadi [harga] spesial Harbolnas 11.11.",
+     "25-30 sec: Langsung amankan slot diskonnya, klik keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 slow-motion shot of a ceramic slow cooker pot filled with bubbling beef stew, meat falling apart tenderly, steam swirling. No people, no text.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Slow Cooker Digital",
+     "category": "Kitchen appliances",
+     "function": "Memasak makanan dengan suhu rendah dalam waktu lama",
+     "selling_points": "Menjaga nutrisi makanan tetap utuh, Sangat praktis untuk MPASI atau daging empuk, Hemat listrik dan fitur auto-warm",
+     "visual_details": "Panci keramik tebal dengan tutup kaca transparan dan bodi stainless steel",
+     "target_customer": "Ibu muda, pecinta hidangan sehat"
+    }
+   }
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 71,
+   "parts": {
+    "demand": 12.9,
+    "growth": 20.3,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 7.7
+   },
+   "growth_pct": 9,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    10.2,
+    7.6,
+    6.3,
+    7.3,
+    4.7,
+    8.6,
+    3.2,
+    6.4,
+    11.2,
+    6.9,
+    9.0,
+    9.8
+   ],
+   "related": [
+    "model wallpaper dinding terbaru",
+    "harga wallpaper dinding 3d per roll",
+    "toko jual wallpaper dinding terdekat"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 14 days"
+   ],
+   "rank": 4,
+   "ideas": {
+    "hook": "Cuma modal dikit, dinding kusam langsung berubah jadi mewah!",
+    "script": [
+     "0-3 sec: Sulap kamar kusam jadi estetik cuma dalam hitungan menit tanpa tukang!",
+     "3-15 sec: Wallpaper ini tebal, tahan air, dan sudah ada lemnya. Tinggal kopek lalu tempel sesuka hati.",
+     "15-25 sec: Satu roll isi [ukuran] cuma [harga] aja. Borong mumpung Harbolnas 11.11!",
+     "25-30 sec: Pilih motif favorit kamu di keranjang kuning sekarang juga!"
+    ],
+    "prompt": "Vertical 9:16 shot of a hand-less application of textured 3D wallpaper onto a white wall, showing a satisfying smooth transition to a marble pattern. No people, no text.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Wallpaper Dinding Self-Adhesive",
+     "category": "Home decor & tools",
+     "function": "Melapisi dan mendekorasi dinding",
+     "selling_points": "Sudah ada lem, tinggal tempel (DIY), Anti air dan mudah dibersihkan, Menutup noda atau retak rambut di dinding",
+     "visual_details": "Tekstur 3D timbul dengan motif serat kayu atau marmer yang mewah",
+     "target_customer": "Penghuni kos, pemilik rumah baru"
+    }
+   }
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 71,
+   "parts": {
+    "demand": 15.5,
+    "growth": 21.3,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 7.7
+   },
+   "growth_pct": 11,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    14.5,
+    13.4,
+    10.3,
+    14.2,
+    11.8,
+    9.1,
+    5.1,
+    10.8,
+    9.3,
+    12.0,
+    11.7,
+    12.2
+   ],
+   "related": [
+    "harga lem tembak kecil di fotocopy",
+    "berapa harga lem tembak",
+    "isian lem tembak"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 11.11 in 14 days"
+   ],
+   "rank": 5,
+   "ideas": {
+    "hook": "Alat wajib buat kamu yang suka DIY, harganya ramah di kantong!",
+    "script": [
+     "0-3 sec: Alat tempel paling sakti buat semua kerajinan tangan kamu di rumah!",
+     "3-15 sec: Panasnya cepat merata, ujungnya presisi jadi nggak berantakan pas nempel bahan apa aja.",
+     "15-25 sec: Desain ringkas [ukuran], harga cuma [harga] khusus promo Harbolnas 11.11 nanti.",
+     "25-30 sec: Jangan sampai ketinggalan, checkout di keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 macro shot of a glue gun tip dispensing a drop of clear, hot liquid glue onto colorful craft materials, soft bokeh background. No people, no text.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Lem Tembak Rapid-Heat",
+     "category": "Home decor & tools",
+     "function": "Merekatkan berbagai material dengan panas",
+     "selling_points": "Cepat panas dalam waktu singkat, Ujung nozzle presisi dan anti bocor, Pegangan ergonomis nyaman digunakan",
+     "visual_details": "Bodi plastik solid dengan indikator lampu LED dan kabel yang fleksibel",
+     "target_customer": "Siswa, pecinta kerajinan tangan"
+    }
+   }
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 71,
+   "parts": {
+    "demand": 9.0,
+    "growth": 30.0,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 7.7
+   },
+   "growth_pct": 221,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    0.0,
+    2.9,
+    0.0,
+    2.5,
+    3.0,
+    4.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    4.7,
+    5.1
+   ],
+   "related": [],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 221% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 14 days"
+   ],
+   "rank": 6,
+   "ideas": {
+    "hook": "Nunggu air mendidih kelamaan? Pake teko listrik super sat-set ini!",
+    "script": [
+     "0-3 sec: Mau bikin kopi atau mie instan jadi lebih cepet? Ini solusinya!",
+     "3-15 sec: Masak air nggak perlu ditungguin lagi, otomatis mati sendiri pas sudah mendidih. Aman banget!",
+     "15-25 sec: Kapasitasnya [ukuran], harganya cuma [harga] aja buat persiapan Harbolnas 11.11.",
+     "25-30 sec: Stok terbatas, langsung amankan di keranjang kuning ya!"
+    ],
+    "prompt": "Vertical 9:16 shot of a modern stainless steel electric kettle with steam vigorously coming out of the spout, minimalist kitchen background. No people, no text.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Teko Listrik Stainless Steel",
+     "category": "Kitchen appliances",
+     "function": "Mendidihkan air secara otomatis",
+     "selling_points": "Mendidihkan air dalam hitungan menit, Fitur auto-off saat air matang, Material stainless steel kualitas tinggi",
+     "visual_details": "Permukaan metalik mengkilap dengan gagang hitam kokoh dan lampu indikator",
+     "target_customer": "Anak kos, pekerja kantoran"
+    }
+   }
+  },
+  {
+   "keyword": "solder listrik",
+   "category": "Home decor & tools",
+   "score": 67,
+   "parts": {
+    "demand": 7.1,
+    "growth": 29.0,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 7.7
+   },
+   "growth_pct": 77,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.2,
+    0.0,
+    0.0,
+    0.0,
+    1.2,
+    2.5,
+    2.2
+   ],
+   "related": [
+    "gambar solder listrik"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 77% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 14 days"
+   ],
+   "rank": 7,
+   "ideas": {
+    "hook": "Perbaiki barang elektronik sendiri di rumah jadi lebih gampang!",
+    "script": [
+     "0-3 sec: Hemat biaya servis, mending perbaiki barang elektronik sendiri pakai alat ini!",
+     "3-15 sec: Panasnya stabil banget, bikin timah nempel sempurna di papan sirkuit tanpa ribet.",
+     "15-25 sec: Modelnya simpel [ukuran], harga cuma [harga] spesial promo 11.11 besok.",
+     "25-30 sec: Klik keranjang kuning buat dapet harga termurahnya sekarang!"
+    ],
+    "prompt": "Vertical 9:16 macro close-up of a soldering iron tip touching a circuit board, a small puff of white smoke, glowing orange heat, technical detail. No people, no text.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Solder Listrik Pro-Kit",
+     "category": "Home decor & tools",
+     "function": "Menyambung komponen elektronik",
+     "selling_points": "Panas stabil dan cepat meresap, Mata solder tahan korosi, Kabel tebal dan aman dari korsleting",
+     "visual_details": "Ujung logam runcing yang presisi dengan gagang isolasi panas yang aman",
+     "target_customer": "Teknisi, hobi elektronik"
+    }
+   }
+  },
+  {
+   "keyword": "juicer",
+   "category": "Kitchen appliances",
+   "score": 67,
+   "parts": {
+    "demand": 11.6,
+    "growth": 22.3,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 7.7
+   },
+   "growth_pct": 12,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    11.7,
+    9.8,
+    9.3,
+    9.6,
+    7.4,
+    9.3,
+    3.6,
+    6.3,
+    2.5,
+    9.1,
+    8.3,
+    7.4
+   ],
+   "related": [
+    "juicer portable"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 11.11 in 14 days"
+   ],
+   "rank": 8,
+   "ideas": {
+    "hook": "Minum jus segar tiap pagi makin praktis menyambut Harbolnas 11.11!",
+    "script": [
+     "0-3 sec: Mulai hidup sehat nggak pake ribet dengan juicer paling sat-set ini!",
+     "3-15 sec: Lihat deh, sari buahnya bener-bener murni tanpa ampas. Bikin badan seger setiap hari.",
+     "15-25 sec: Ukurannya compact [ukuran], harganya cuma [harga] di promo Harbolnas 11.11.",
+     "25-30 sec: Yuk, checkout sekarang di keranjang kuning sebelum promo berakhir!"
+    ],
+    "prompt": "Vertical 9:16 slow-motion shot of vibrant orange juice flowing from a modern juicer into a glass, droplets of juice in the air, bright lighting. No people, no text.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Juicer Portable Power",
+     "category": "Kitchen appliances",
+     "function": "Mengekstrak sari buah dan sayur",
+     "selling_points": "Memisahkan ampas dan sari secara otomatis, Mudah dibongkar pasang dan dicuci, Suara mesin halus tidak bising",
+     "visual_details": "Bodi transparan yang memperlihatkan proses pemerasan buah segar",
+     "target_customer": "Pecinta hidup sehat, atlet"
+    }
+   }
+  }
+ ]
+}
