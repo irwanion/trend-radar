@@ -1,0 +1,500 @@
+{
+ "date": "2026-10-31",
+ "generated_at": "2026-10-31T01:39:37Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 82,
+   "parts": {
+    "demand": 14.8,
+    "growth": 29.0,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 8.2
+   },
+   "growth_pct": 119,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    1.4,
+    0.0,
+    0.0,
+    0.0,
+    2.4,
+    1.4,
+    0.0,
+    4.6,
+    1.2,
+    6.4,
+    10.0,
+    12.9
+   ],
+   "related": [
+    "pohon natal mini",
+    "pohon natal salju",
+    "diy pohon natal"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 119% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 11 days"
+   ],
+   "rank": 1,
+   "ideas": {
+    "hook": "Sambut Harbolnas 11.11 dengan pohon natal tercantik untuk rumahmu!",
+    "script": [
+     "0-3 sec: Mulai dekorasi Natal lebih awal yuk biar suasana makin hangat!",
+     "3-15 sec: Lihat deh daunnya rimbun banget, kualitasnya premium dan super gampang buat dirakit sendiri.",
+     "15-25 sec: Tersedia dalam [ukuran] dengan harga promo Harbolnas cuma [harga] saja.",
+     "25-30 sec: Klik keranjang kuning sekarang sebelum kehabisan stok promonya!"
+    ],
+    "prompt": "Cinematic vertical 9:16 video of a lush green Christmas tree being decorated with warm golden lights in a cozy living room, soft bokeh background, high detail texture of the needles.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Pohon Natal Estetik",
+     "category": "Home decor & tools",
+     "function": "Dekorasi perayaan natal",
+     "selling_points": "Daun rimbun dan padat, Mudah dirakit dan disimpan, Kualitas premium tahan lama",
+     "visual_details": "Tekstur daun hijau alami yang tebal dengan penyangga kokoh",
+     "target_customer": "Keluarga dan penghuni apartemen"
+    }
+   }
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 80,
+   "parts": {
+    "demand": 9.7,
+    "growth": 30.0,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 8.2
+   },
+   "growth_pct": 123,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    31.2,
+    26.4,
+    11.2,
+    36.6,
+    31.2,
+    31.2,
+    1.4,
+    0.0,
+    0.0,
+    1.5,
+    5.1,
+    4.9
+   ],
+   "related": [
+    "how to use a slow cooker"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 123% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 11.11 in 11 days"
+   ],
+   "rank": 2,
+   "ideas": {
+    "hook": "Masak MPASI atau daging empuk makin praktis pas Harbolnas 11.11!",
+    "script": [
+     "0-3 sec: Gak perlu repot jaga kompor lagi kalau pakai alat ini!",
+     "3-15 sec: Tinggal masukkan bahan, nutrisi tetap terjaga dan daging jadi super empuk dengan mode slow cooking.",
+     "15-25 sec: Kapasitasnya [ukuran] dengan harga promo Harbolnas cuma [harga] lho.",
+     "25-30 sec: Cek keranjang kuning sekarang juga untuk promo 11.11!"
+    ],
+    "prompt": "Vertical 9:16 shot of a modern ceramic slow cooker on a kitchen counter, steam gently rising from the lid, warm ambient lighting, focus on the sleek control panel.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Slow Cooker Digital",
+     "category": "Kitchen appliances",
+     "function": "Memasak makanan perlahan untuk nutrisi maksimal",
+     "selling_points": "Menjaga nutrisi tetap utuh, Hemat konsumsi listrik, Bahan pot keramik berkualitas",
+     "visual_details": "Bodi luar minimalis dengan pot keramik tebal di dalamnya",
+     "target_customer": "Ibu rumah tangga dan orang tua bayi"
+    }
+   }
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 75,
+   "parts": {
+    "demand": 10.3,
+    "growth": 25.2,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 8.2
+   },
+   "growth_pct": 25,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    2.9,
+    3.7,
+    2.5,
+    4.4,
+    2.4,
+    3.9,
+    1.4,
+    1.9,
+    5.9,
+    2.9,
+    6.6,
+    6.4
+   ],
+   "related": [
+    "harga cetakan kue semprong",
+    "cetakan kue putu ayu"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 25% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 11 days"
+   ],
+   "rank": 3,
+   "ideas": {
+    "hook": "Bikin kue cantik buat keluarga jadi makin gampang di 11.11!",
+    "script": [
+     "0-3 sec: Rahasia bikin kue yang bentuknya rapi dan estetik kayak profesional!",
+     "3-15 sec: Bahannya tebal dan anti lengket, hasil cetakan kuenya langsung mulus sempurna tanpa rusak.",
+     "15-25 sec: Ukuran cetakannya [ukuran] dengan harga diskon 11.11 cuma [harga].",
+     "25-30 sec: Buruan cek keranjang kuning sebelum promo Harbolnas berakhir!"
+    ],
+    "prompt": "Vertical 9:16 close-up of a high-quality metal baking mold, focus on the intricate patterns inside, soft kitchen lighting, cinematic macro shot.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Cetakan Kue Anti Lengket",
+     "category": "Kitchen appliances",
+     "function": "Mencetak adonan kue dengan rapi",
+     "selling_points": "Material food grade aman, Lapisan anti lengket premium, Desain motif yang presisi",
+     "visual_details": "Permukaan metalik halus dengan detail motif cetakan yang tajam",
+     "target_customer": "Pecinta baking dan pengusaha kue"
+    }
+   }
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 74,
+   "parts": {
+    "demand": 15.5,
+    "growth": 23.2,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 8.2
+   },
+   "growth_pct": 14,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    15.8,
+    12.4,
+    13.7,
+    9.8,
+    13.9,
+    12.4,
+    4.9,
+    10.3,
+    9.0,
+    11.4,
+    11.9,
+    12.2
+   ],
+   "related": [
+    "harga lem tembak dan isinya",
+    "cara pakai lem tembak",
+    "berapa harga lem tembak"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 11.11 in 11 days"
+   ],
+   "rank": 4,
+   "ideas": {
+    "hook": "Siap-siap DIY dekorasi rumah pas Harbolnas 11.11 dengan alat ini!",
+    "script": [
+     "0-3 sec: Alat wajib buat kamu yang hobi bikin kerajinan tangan di rumah!",
+     "3-15 sec: Cepat panas dan daya rekatnya kuat banget buat kayu, kain, sampai plastik.",
+     "15-25 sec: Sudah termasuk isi lem dengan [ukuran] dan harga promo cuma [harga].",
+     "25-30 sec: Langsung check out di keranjang kuning ya sebelum kehabisan!"
+    ],
+    "prompt": "Vertical 9:16 shot of a glue gun being used on a wooden surface, clear glue droplet at the nozzle, industrial workspace aesthetic, sharp focus.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Glue Gun Pro",
+     "category": "Home decor & tools",
+     "function": "Perekat berbagai material kerajinan",
+     "selling_points": "Pemanasan super cepat, Aliran lem stabil dan rapi, Pegangan ergonomis anti slip",
+     "visual_details": "Bodi alat yang solid dengan moncong nozzle kuningan anti leleh",
+     "target_customer": "Siswa sekolah dan pecinta kerajinan tangan"
+    }
+   }
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 72,
+   "parts": {
+    "demand": 12.9,
+    "growth": 20.3,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 8.2
+   },
+   "growth_pct": 3,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    11.4,
+    5.6,
+    6.9,
+    8.0,
+    7.3,
+    5.6,
+    3.4,
+    8.1,
+    8.1,
+    10.0,
+    9.5,
+    9.5
+   ],
+   "related": [
+    "wallpaper dinding motif marmer",
+    "harga wallpaper dinding 1 roll",
+    "model wallpaper dinding ruang tamu"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 11 days"
+   ],
+   "rank": 5,
+   "ideas": {
+    "hook": "Makeover kamar jadi mewah sekejap di Harbolnas 11.11 ini!",
+    "script": [
+     "0-3 sec: Bosen dengan suasana kamar yang lama? Makeover gampang yuk!",
+     "3-15 sec: Pasang wallpaper ini simpel banget, langsung bikin ruangan kelihatan estetik tanpa cat ulang.",
+     "15-25 sec: Satu roll [ukuran] harganya cuma [harga] spesial promo 11.11.",
+     "25-30 sec: Yuk, klik keranjang kuning buat pilih motif favoritmu!"
+    ],
+    "prompt": "Vertical 9:16 video showing the application of a textured wallpaper on a wall, smooth motion, modern interior design, natural sunlight.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Wallpaper Sticker Premium",
+     "category": "Home decor & tools",
+     "function": "Melapisi dan mendekorasi dinding",
+     "selling_points": "Sudah ada lem tinggal tempel, Bahan tahan air dan minyak, Motif mewah dan bertekstur",
+     "visual_details": "Serat motif yang terlihat jelas dengan lapisan pelindung glossy/matte",
+     "target_customer": "Pemilik rumah dan penghuni kos"
+    }
+   }
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 69,
+   "parts": {
+    "demand": 9.0,
+    "growth": 27.1,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 8.2
+   },
+   "growth_pct": 71,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    3.6,
+    0.0,
+    2.5,
+    5.3,
+    2.0,
+    1.4,
+    3.2,
+    1.2,
+    2.2,
+    1.5,
+    4.6,
+    4.7
+   ],
+   "related": [
+    "teko listrik stainless"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 71% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 11 days"
+   ],
+   "rank": 6,
+   "ideas": {
+    "hook": "Masak air panas gak pakai lama, borong teko listrik pas 11.11!",
+    "script": [
+     "0-3 sec: Masak air panas buat kopi atau mie tinggal sekali tekan doang!",
+     "3-15 sec: Bahannya stainless steel berkualitas, air cepat mendidih dan otomatis mati sendiri jadi aman.",
+     "15-25 sec: Kapasitasnya [ukuran] dengan harga promo Harbolnas cuma [harga].",
+     "25-30 sec: Cek keranjang kuning sekarang buat ambil promonya!"
+    ],
+    "prompt": "Vertical 9:16 close-up of a stainless steel electric kettle, water boiling inside seen through a window or steam coming out of the spout, minimalist kitchen setting.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Electric Kettle Stainless",
+     "category": "Kitchen appliances",
+     "function": "Memanaskan air dengan cepat",
+     "selling_points": "Bahan full stainless steel, Fitur auto-off saat mendidih, Pemanasan cepat dalam hitungan menit",
+     "visual_details": "Bodi mengkilap dengan desain minimalis dan kabel rapi",
+     "target_customer": "Mahasiswa dan keluarga muda"
+    }
+   }
+  },
+  {
+   "keyword": "lampu led strip",
+   "category": "Home decor & tools",
+   "score": 68,
+   "parts": {
+    "demand": 12.3,
+    "growth": 24.2,
+    "commission": 10.5,
+    "competition": 3.0,
+    "content": 10.0,
+    "season": 8.2
+   },
+   "growth_pct": 21,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    10.3,
+    7.1,
+    4.4,
+    5.9,
+    5.3,
+    8.3,
+    0.0,
+    6.1,
+    5.3,
+    6.6,
+    8.0,
+    8.0
+   ],
+   "related": [
+    "jenis lampu led strip",
+    "rumah lampu led strip"
+   ],
+   "commission": 7,
+   "competition": "high",
+   "content": 5,
+   "why": [
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 11 days"
+   ],
+   "rank": 7,
+   "ideas": {
+    "hook": "Ubah suasana kamar jadi makin keren di Harbolnas 11.11!",
+    "script": [
+     "0-3 sec: Kamar kamu bakal jadi makin estetik pakai lampu LED ini!",
+     "3-15 sec: Warnanya bisa diganti sesuka hati lewat remote, pas banget buat dekorasi gaming room atau kamar tidur.",
+     "15-25 sec: Panjangnya [ukuran] dengan harga spesial 11.11 cuma [harga].",
+     "25-30 sec: Cek keranjang kuning buat pilih tipe lampunya!"
+    ],
+    "prompt": "Vertical 9:16 shot of vibrant LED strip lights glowing behind a desk, changing colors smoothly, neon aesthetic, cinematic lighting.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Smart LED Strip RGB",
+     "category": "Home decor & tools",
+     "function": "Pencahayaan dekoratif ruangan",
+     "selling_points": "Pilihan jutaan warna RGB, Kontrol via remote atau HP, Pemasangan fleksibel di mana saja",
+     "visual_details": "Deretan lampu LED kecil yang bercahaya terang dan warna-warni",
+     "target_customer": "Gamer dan dekorator kamar estetik"
+    }
+   }
+  },
+  {
+   "keyword": "rak dinding",
+   "category": "Home decor & tools",
+   "score": 67,
+   "parts": {
+    "demand": 11.0,
+    "growth": 26.1,
+    "commission": 10.5,
+    "competition": 3.0,
+    "content": 8.0,
+    "season": 8.2
+   },
+   "growth_pct": 27,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    8.1,
+    4.9,
+    3.7,
+    3.7,
+    5.6,
+    8.3,
+    3.7,
+    2.5,
+    6.3,
+    2.9,
+    7.6,
+    7.1
+   ],
+   "related": [
+    "gambar rak dinding"
+   ],
+   "commission": 7,
+   "competition": "high",
+   "content": 4,
+   "why": [
+    "Searches up 27% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 11 days"
+   ],
+   "rank": 8,
+   "ideas": {
+    "hook": "Solusi ruangan rapi dan estetik di promo Harbolnas 11.11!",
+    "script": [
+     "0-3 sec: Ruangan sempit jadi kelihatan luas dan rapi seketika pakai ini!",
+     "3-15 sec: Rak minimalis ini kuat banget buat simpan pajangan, buku, atau tanaman hias favorit kamu.",
+     "15-25 sec: Tersedia [ukuran] dengan harga diskon Harbolnas cuma [harga].",
+     "25-30 sec: Buruan cek keranjang kuning sebelum stok promonya habis!"
+    ],
+    "prompt": "Vertical 9:16 wide shot of a floating wooden wall shelf decorated with small plants and books, minimalist white wall background, soft natural lighting.",
+    "model": "gemini-3-flash-preview",
+    "analysis": {
+     "name": "Rak Dinding Minimalis",
+     "category": "Home decor & tools",
+     "function": "Penyimpanan gantung hemat ruang",
+     "selling_points": "Desain modern floating shelf, Mampu menahan beban berat, Pemasangan mudah dan praktis",
+     "visual_details": "Papan kayu halus dengan sudut rapi dan finishing cat matte",
+     "target_customer": "Pemilik rumah minimalis"
+    }
+   }
+  }
+ ]
+}
