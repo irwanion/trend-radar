@@ -1,0 +1,498 @@
+{
+ "date": "2026-11-01",
+ "generated_at": "2026-11-01T01:42:42Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 81,
+   "parts": {
+    "demand": 14.8,
+    "growth": 27.1,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 8.3
+   },
+   "growth_pct": 68,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.9,
+    0.0,
+    0.0,
+    1.7,
+    7.0,
+    6.5,
+    10.3,
+    13.4
+   ],
+   "related": [
+    "pohon natal cemara",
+    "dekorasi pohon natal",
+    "jual pohon natal"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 68% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 10 days"
+   ],
+   "rank": 1,
+   "ideas": {
+    "hook": "Mau suasana rumah makin hangat dan estetik menyambut Natal nanti?",
+    "script": [
+     "0-3 sec: Mau suasana rumah makin hangat dan estetik menyambut Natal nanti?",
+     "3-15 sec: Pohon natal ini bikin ruangan langsung tampil meriah dengan dahan hijau lebat yang gampang banget dipasang.",
+     "15-25 sec: Pas banget menyambut Harbolnas 11.11, dapatkan ukuran [ukuran] dengan penawaran [harga] terbaik.",
+     "25-30 sec: Yuk serbu promo 11.11 sekarang juga, klik keranjang kuning di bawah ya!"
+    ],
+    "prompt": "Vertical 9:16 video showing a lush green Christmas tree decorated with warm glowing fairy lights and golden ornaments in a cozy modern living room. Aesthetic lighting, cinematic depth of field, warm cozy ambience, detailed textures. No text, no human faces visible.",
+    "model": "gemini-3.5-flash",
+    "analysis": {
+     "name": "Pohon Natal Dekoratif",
+     "category": "Home decor & tools",
+     "function": "Dekorasi hiasan perayaan Natal di ruangan rumah",
+     "selling_points": "Daun sintetis lebat dan tampak natural, Mudah dirakit dan disimpan kembali, Mempercantik sudut ruangan dengan kesan hangat",
+     "visual_details": "Dahan hijau lebat dipadu ornamen berkilau dan lampu hias yang hangat",
+     "target_customer": "Keluarga atau individu yang merayakan Natal"
+    }
+   }
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 79,
+   "parts": {
+    "demand": 9.7,
+    "growth": 29.0,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 8.3
+   },
+   "growth_pct": 87,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    33.2,
+    23.8,
+    13.7,
+    39.1,
+    26.7,
+    28.6,
+    1.4,
+    0.0,
+    2.7,
+    0.0,
+    5.0,
+    4.8
+   ],
+   "related": [
+    "how to use a slow cooker"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 87% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 11.11 in 10 days"
+   ],
+   "rank": 2,
+   "ideas": {
+    "hook": "Bikin kaldu dan daging empuk tanpa repot awasi kompor terus?",
+    "script": [
+     "0-3 sec: Bikin kaldu dan daging empuk tanpa repot awasi kompor terus?",
+     "3-15 sec: Pake slow cooker ini, tinggal cemplung bahan, masak perlahan sampai bumbu meresap sempurna dan hemat energi.",
+     "15-25 sec: Spesial promo Harbolnas 11.11, kamu bisa dapet kapasitas [ukuran] cuma dengan [harga] terjangkau.",
+     "25-30 sec: Mumpung lagi diskon besar 11.11, langsung klik keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 video of a sleek electric slow cooker on a kitchen countertop, simmering rich meat stew inside a transparent glass lid. Gentle steam rising, appetizing soft lighting, cinematic close-up shot of food bubbling gently. No text, no human faces visible.",
+    "model": "gemini-3.5-flash",
+    "analysis": {
+     "name": "Slow Cooker Elektrik",
+     "category": "Kitchen appliances",
+     "function": "Memasak makanan secara perlahan untuk hasil lebih empuk dan bernutrisi",
+     "selling_points": "Hemat listrik dan praktis tanpa awasi kompor, Menjaga nutrisi dan kelezatan bahan makanan, Pot keramik mudah dibersihkan",
+     "visual_details": "Pot keramik elegan dengan penutup kaca transparan dan bodi stainless steel",
+     "target_customer": "Ibu rumah tangga, pembuat makanan pendamping ASI (MPASI), pencinta olahan daging"
+    }
+   }
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 77,
+   "parts": {
+    "demand": 10.3,
+    "growth": 26.1,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 8.3
+   },
+   "growth_pct": 41,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    4.1,
+    3.8,
+    2.4,
+    5.1,
+    5.0,
+    2.9,
+    2.2,
+    1.7,
+    5.1,
+    1.4,
+    7.0,
+    6.3
+   ],
+   "related": [
+    "cetakan kue pie"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 41% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 10 days"
+   ],
+   "rank": 3,
+   "ideas": {
+    "hook": "Mau hasil bikin kue kamu selalu rapi dan gak pernah lengket?",
+    "script": [
+     "0-3 sec: Mau hasil bikin kue kamu selalu rapi dan gak pernah lengket?",
+     "3-15 sec: Pakai cetakan kue ini, adonan matang merata dan sangat mudah dilepaskan tanpa merusak bentuk kue.",
+     "15-25 sec: Menyambut promo Harbolnas 11.11, kamu bisa dapet cetakan [ukuran] ini cukup bayar [harga].",
+     "25-30 sec: Jangan sampai kehabisan stok 11.11, yuk cek keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 video of fresh golden-baked mini cakes being easily popped out of a sleek non-stick baking mold on a clean marble kitchen tabletop. Cinematic soft lighting, high detail, appetizing food visuals. No text, no human faces visible.",
+    "model": "gemini-3.5-flash",
+    "analysis": {
+     "name": "Cetakan Kue Anti Lengket",
+     "category": "Kitchen appliances",
+     "function": "Membentuk adonan kue saat dipanggang atau dikukus agar rapi",
+     "selling_points": "Bahan anti lengket berkualitas tinggi, Tahan panas dan mudah dibersihkan, Hasil kue lebih rapi dan presisi",
+     "visual_details": "Permukaan cetakan mulus bertekstur modern dengan warna elegan",
+     "target_customer": "Penggemar baking dan pembuat kue rumahan"
+    }
+   }
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 74,
+   "parts": {
+    "demand": 15.5,
+    "growth": 23.2,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 8.3
+   },
+   "growth_pct": 7,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    15.4,
+    11.5,
+    14.6,
+    11.0,
+    8.7,
+    9.8,
+    6.5,
+    9.2,
+    10.4,
+    11.3,
+    11.8,
+    12.0
+   ],
+   "related": [
+    "berapa harga lem tembak",
+    "isi lem tembak harga",
+    "isian lem tembak"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 11.11 in 10 days"
+   ],
+   "rank": 4,
+   "ideas": {
+    "hook": "Solusi praktis nempel bahan kerajinan tangan atau barang rusak di rumah!",
+    "script": [
+     "0-3 sec: Solusi praktis nempel bahan kerajinan tangan atau barang rusak di rumah!",
+     "3-15 sec: Lem tembak ini cepat panas dan menghasilkan lelehan rapi, bikin perbaikan atau kerajinan tangan beres seketika.",
+     "15-25 sec: Sambut promo Harbolnas 11.11, dapatkan set isi [ukuran] cuma [harga] aja.",
+     "25-30 sec: Mau belanja hemat 11.11? Cek dan order lewat keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 video shot close-up of a glue gun dispensing clear molten hot glue precisely onto a craft wooden piece on a clean workspace. Studio lighting, sharp focus, aesthetic DIY vibe. No text, no human faces visible.",
+    "model": "gemini-3.5-flash",
+    "analysis": {
+     "name": "Lem Tembak Portable",
+     "category": "Home decor & tools",
+     "function": "Perekat serbaguna untuk kerajinan tangan dan perbaikan peralatan rumah",
+     "selling_points": "Cepat panas dan melelehkan isian secara merata, Desain ergonomis dan anti bocor, Daya rekat ekstra kuat pada berbagai permukaan",
+     "visual_details": "Bodi alat kokoh berukuran ringkas dengan lelehan lem bening di ujung nozel",
+     "target_customer": "Pecinta DIY, pengrajin tangan, serta kebutuhan perbaikan rumah tangga"
+    }
+   }
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 73,
+   "parts": {
+    "demand": 12.9,
+    "growth": 21.3,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 8.3
+   },
+   "growth_pct": 5,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    8.6,
+    7.2,
+    9.6,
+    4.8,
+    8.9,
+    7.7,
+    4.5,
+    11.3,
+    9.8,
+    6.9,
+    9.8,
+    9.3
+   ],
+   "related": [
+    "contoh wallpaper dinding ruang tamu",
+    "tempat jual wallpaper dinding terdekat",
+    "model wallpaper dinding ruang tamu"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 10 days"
+   ],
+   "rank": 5,
+   "ideas": {
+    "hook": "Ubah tampilan kamar kusam jadi estetik cuma dalam hitungan menit!",
+    "script": [
+     "0-3 sec: Ubah tampilan kamar kusam jadi estetik cuma dalam hitungan menit!",
+     "3-15 sec: Wallpaper dinding ini sudah ada lemnya, tinggal tempel tanpa repot. Bahan waterproof dan gampang dilap kalau kotor.",
+     "15-25 sec: Menyambut event Harbolnas 11.11, langsung amankan roll ukuran [ukuran] ini seharga [harga].",
+     "25-30 sec: Biar rumah makin aesthetic pas 11.11, yuk klik keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 video demonstrating smooth peel-and-stick modern textured wallpaper being applied onto a bedroom wall, transforming the space. Cozy interior background, bright warm sunlight, cinematic transformation feel. No text, no human faces visible.",
+    "model": "gemini-3.5-flash",
+    "analysis": {
+     "name": "Wallpaper Dinding Stiker",
+     "category": "Home decor & tools",
+     "function": "Melapisi dan mempercantik dinding ruangan dengan motif modern",
+     "selling_points": "Praktis sudah dilengkapi lem perekat, Bahan tahan air dan mudah dibersihkan, Motif estetik mengubah tampilan ruangan secara instant",
+     "visual_details": "Tekstur timbul bergaris halus dengan pilihan motif serat atau netral yang elegan",
+     "target_customer": "Pemilik rumah, anak kos, dan pencinta dekorasi interior minimalis"
+    }
+   }
+  },
+  {
+   "keyword": "lampu led strip",
+   "category": "Home decor & tools",
+   "score": 68,
+   "parts": {
+    "demand": 12.3,
+    "growth": 24.2,
+    "commission": 10.5,
+    "competition": 3.0,
+    "content": 10.0,
+    "season": 8.3
+   },
+   "growth_pct": 23,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    7.9,
+    5.7,
+    2.9,
+    6.0,
+    2.4,
+    6.0,
+    0.0,
+    7.4,
+    5.1,
+    5.7,
+    8.1,
+    7.7
+   ],
+   "related": [],
+   "commission": 7,
+   "competition": "high",
+   "content": 5,
+   "why": [
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 10 days"
+   ],
+   "rank": 6,
+   "ideas": {
+    "hook": "Mau bikin suasana kamar ala gaming setup atau kafe kekinian?",
+    "script": [
+     "0-3 sec: Mau bikin suasana kamar ala gaming setup atau kafe kekinian?",
+     "3-15 sec: Lampu LED strip ini gampang ditempel di mana aja, warnanya bisa diatur sesuai suasana hati kamu.",
+     "15-25 sec: Pas banget promo Harbolnas 11.11, dapet panjang [ukuran] cuma seharga [harga].",
+     "25-30 sec: Langsung borong di Harbolnas 11.11, klik keranjang kuning sekarang juga!"
+    ],
+    "prompt": "Vertical 9:16 video of glowing RGB LED strip lights changing colorful ambient neon colors behind a clean wooden desk setup and wall shelf in a dark room. Moody aesthetic lighting, cinematic high quality. No text, no human faces visible.",
+    "model": "gemini-3.5-flash",
+    "analysis": {
+     "name": "Lampu LED Strip RGB",
+     "category": "Home decor & tools",
+     "function": "Pencahayaan dekoratif tambahan untuk membangun suasana estetis di ruangan",
+     "selling_points": "Bisa berganti berbagai warna menarik, Fleksibel dan hemat konsumsi listrik, Pemasangan sangat mudah pada sudut furniture atau dinding",
+     "visual_details": "Pita lampu fleksibel dengan pendaran neon RGB yang warna-warni dan terang",
+     "target_customer": "Gamers, anak muda, pencinta dekorasi kamar kekinian"
+    }
+   }
+  },
+  {
+   "keyword": "oven listrik",
+   "category": "Kitchen appliances",
+   "score": 68,
+   "parts": {
+    "demand": 13.5,
+    "growth": 22.3,
+    "commission": 7.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 8.3
+   },
+   "growth_pct": 6,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    9.6,
+    11.8,
+    8.7,
+    8.9,
+    10.6,
+    8.4,
+    4.8,
+    11.8,
+    7.7,
+    11.8,
+    11.1,
+    10.8
+   ],
+   "related": [
+    "merk oven listrik yang bagus dan hemat listrik",
+    "harga oven listrik cosmos",
+    "beda microwave dan oven listrik"
+   ],
+   "commission": 5,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 11.11 in 10 days"
+   ],
+   "rank": 7,
+   "ideas": {
+    "hook": "Bikin kue dan memanggang makanan di rumah jadi makin gampang!",
+    "script": [
+     "0-3 sec: Bikin kue dan memanggang makanan di rumah jadi makin gampang!",
+     "3-15 sec: Oven listrik ini punya pemanas atas-bawah yang bikin masakan matang sempurna dan krispi merata.",
+     "15-25 sec: Di momen Harbolnas 11.11, kapasitas [ukuran] bisa kamu dapet cuma dengan [harga] aja.",
+     "25-30 sec: Jangan sampai kehabisan promo 11.11 ini, langsung klik keranjang kuning!"
+    ],
+    "prompt": "Vertical 9:16 video shot of a modern compact electric oven baking a batch of golden brown cookies on a tray visible through the glass door, warm glow inside. Clean modern kitchen counter backdrop, sharp focus, cinematic lighting. No text, no human faces visible.",
+    "model": "gemini-3.5-flash",
+    "analysis": {
+     "name": "Oven Listrik Serbaguna",
+     "category": "Kitchen appliances",
+     "function": "Memanggang roti, kue, dan masakan dengan temperatur terkontrol",
+     "selling_points": "Pemanasan merata dari atas dan bawah, Desain ringkas dan hemat konsumsi daya, Mudah dioperasikan untuk pemula",
+     "visual_details": "Bodi matte yang elegan dengan pintu kaca bening serta elemen pemanas yang menyala hangat",
+     "target_customer": "Keluarga muda, hobi memanggang kue dan makanan"
+    }
+   }
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 67,
+   "parts": {
+    "demand": 9.0,
+    "growth": 25.2,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 8.3
+   },
+   "growth_pct": 29,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    2.6,
+    1.2,
+    1.2,
+    3.9,
+    2.4,
+    0.0,
+    2.4,
+    0.0,
+    2.6,
+    3.8,
+    4.8,
+    4.8
+   ],
+   "related": [
+    "teko listrik cosmos",
+    "teko listrik stainless"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 29% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 10 days"
+   ],
+   "rank": 8,
+   "ideas": {
+    "hook": "Bikin kopi atau teh hangat gak perlu nunggu lama lagi!",
+    "script": [
+     "0-3 sec: Bikin kopi atau teh hangat gak perlu nunggu lama lagi!",
+     "3-15 sec: Teko listrik ini rebus air cepat banget sampai mendidih dan otomatis mati sendiri, praktis dan aman.",
+     "15-25 sec: Sambut Harbolnas 11.11, beli kapasitas [ukuran] cukup bayar [harga] saja.",
+     "25-30 sec: Mumpung ada diskon spesial 11.11, cus klik keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 video of an elegant stainless steel electric kettle boiling water on a neat countertop, gentle steam rising from the spout. Clean warm kitchen backdrop, cinematic lighting, sharp detail. No text, no human faces visible.",
+    "model": "gemini-3.5-flash",
+    "analysis": {
+     "name": "Teko Listrik Stainless Steel",
+     "category": "Kitchen appliances",
+     "function": "Memanaskan air secara cepat dan otomatis mati saat mendidih",
+     "selling_points": "Memanaskan air mendidih dalam waktu singkat, Bahan tahan karat berkualitas tinggi, Fitur pemutus arus otomatis demi keamanan",
+     "visual_details": "Bodi mengkilap stainless steel premium dengan pegangan hitam ergonomis",
+     "target_customer": "Penghuni kos, pekerja kantor, penikmat kopi dan teh"
+    }
+   }
+  }
+ ]
+}
