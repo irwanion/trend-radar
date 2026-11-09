@@ -1,0 +1,503 @@
+{
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T01:49:13Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 86,
+   "parts": {
+    "demand": 16.8,
+    "growth": 29.0,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 9.7
+   },
+   "growth_pct": 110,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    0.0,
+    0.0,
+    0.0,
+    3.7,
+    0.0,
+    3.2,
+    2.6,
+    4.6,
+    8.5,
+    7.8,
+    13.9,
+    21.1
+   ],
+   "related": [
+    "daun pohon natal",
+    "pita pohon natal",
+    "pohon natal terbaru"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 110% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 2 days"
+   ],
+   "rank": 1,
+   "ideas": {
+    "hook": "Persiapan Natal makin dekat, ruang tamu wajib sehangat ini!",
+    "script": [
+     "0-3 detik: Persiapan Natal makin dekat, ruang tamu wajib sehangat ini!",
+     "3-15 detik: Tinggal pasang rantingnya yang lebat dan tambahkan lampu hias, seketika suasana rumah jadi jauh lebih meriah dan estetik.",
+     "15-25 detik: Pas banget buat momen Harbolnas 11.11, ukurannya ada varian [ukuran] dengan penawaran menarik seharga [harga].",
+     "25-30 detik: Yuk borong sekarang sebelum kehabisan, langsung klik keranjang kuning!"
+    ],
+    "prompt": "Vertical 9:16 cinematography, close-up shot of a lush artificial Christmas tree being decorated with shiny gold baubles and warm glowing fairy lights, cozy living room ambiance in the background with soft bokeh, hands carefully placing an ornament on a pine branch, smooth slow-motion camera movement, no text, no faces.",
+    "model": "gemini-3.8-flash",
+    "analysis": {
+     "name": "Pohon Natal Dekorasi",
+     "category": "Home decor & tools",
+     "function": "Mendekorasi ruangan untuk menyambut perayaan Natal dan akhir tahun.",
+     "selling_points": "Ranting lebat dan mudah dibentuk, Pemasangan praktis dan kokoh, Cocok untuk mempercantik sudut ruang tamu",
+     "visual_details": "Ranting hijau bertekstur tebal dengan kerlap-kerlip lampu hias dan ornamen mengkilap di ruang keluarga yang hangat.",
+     "target_customer": "Keluarga yang merayakan Natal atau pemilik kafe/toko yang membutuhkan dekorasi musiman."
+    }
+   }
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 80,
+   "parts": {
+    "demand": 10.3,
+    "growth": 28.1,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 9.7
+   },
+   "growth_pct": 82,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    2.6,
+    2.4,
+    4.4,
+    1.3,
+    0.0,
+    3.3,
+    4.4,
+    5.9,
+    2.6,
+    1.3,
+    6.5,
+    6.3
+   ],
+   "related": [
+    "harga cetakan kue semprong",
+    "cetakan kue pie",
+    "toko cetakan kue terdekat"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 82% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 2 days"
+   ],
+   "rank": 2,
+   "ideas": {
+    "hook": "Bikin kue cantik rapi sekarang nggak pake drama lengket!",
+    "script": [
+     "0-3 detik: Bikin kue cantik rapi sekarang nggak pake drama lengket!",
+     "3-15 detik: Tuang adonan langsung ke cetakan ini, hasil matangnya merata dan pas diangkat langsung lepas sempurna tanpa hancur.",
+     "15-25 detik: Spesial promo Harbolnas 11.11, cetakan berukuran [ukuran] ini cuma dibanderol [harga].",
+     "25-30 detik: Jangan sampai ketinggalan promonya, yuk cek keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 cinematography, macro close-up of golden brown freshly baked small pastries effortlessly popping out of a high-quality non-stick baking mold, subtle steam rising, bright modern kitchen countertop, cinematic lighting, ultra-detailed texture of pastry and metal, no text, no faces.",
+    "model": "gemini-3.8-flash",
+    "analysis": {
+     "name": "Cetakan Kue Serbaguna",
+     "category": "Kitchen appliances",
+     "function": "Mencetak dan memanggang berbagai jenis adonan kue dengan rapi.",
+     "selling_points": "Bahan tebal dan anti lengket, Hasil panggangan matang merata, Mudah dibersihkan setelah dipakai",
+     "visual_details": "Permukaan loyang cetakan mulus dengan adonan kue yang mengembang sempurna dan mudah terlepas tanpa sisa.",
+     "target_customer": "Ibu rumah tangga, pembuat kue rumahan, dan pecinta baking."
+    }
+   }
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 78,
+   "parts": {
+    "demand": 9.0,
+    "growth": 27.1,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 9.7
+   },
+   "growth_pct": 59,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    19.3,
+    15.2,
+    42.1,
+    23.0,
+    29.7,
+    17.0,
+    1.5,
+    0.0,
+    1.3,
+    3.7,
+    4.4,
+    5.0
+   ],
+   "related": [
+    "slow cooker vs pressure cooker",
+    "takahi slow cooker",
+    "slow cooker adalah"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 59% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 11.11 in 2 days"
+   ],
+   "rank": 3,
+   "ideas": {
+    "hook": "Tinggal cemplung semua bahan, masakan empuk lezat siap santap!",
+    "script": [
+     "0-3 detik: Tinggal cemplung semua bahan, masakan empuk lezat siap santap!",
+     "3-15 detik: Masak sup daging atau MPASI jadi gampang banget, daging lembut maksimal dan kuah meresap sempurna tanpa perlu diaduk terus.",
+     "15-25 detik: Momen pas Harbolnas 11.11 buat upgrade dapur, kapasitas [ukuran] ini bisa kamu dapatkan cuma [harga].",
+     "25-30 detik: Bikin masak jadi lebih praktis, buruan cek keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 cinematography, high-angle close-up looking through a clear glass lid into a ceramic slow cooker pot with rich, gently simmering beef stew and vegetables, soft vapor rising, sleek and clean kitchen environment, warm aesthetic lighting, no text, no faces.",
+    "model": "gemini-3.8-flash",
+    "analysis": {
+     "name": "Slow Cooker Elektrik",
+     "category": "Kitchen appliances",
+     "function": "Memasak makanan berkuah, sup, dan kaldu dengan suhu rendah agar nutrisi terjaga.",
+     "selling_points": "Menjaga nutrisi dan kelembutan daging, Hemat daya listrik untuk memasak lama, Praktis cukup masukkan bahan dan tinggal tunggu",
+     "visual_details": "Pot keramik tebal dengan sup mendidih perlahan, uap lembut mengepul di bawah tutup kaca transparan.",
+     "target_customer": "Ibu menyusui yang menyiapkan MPASI, pekerja sibuk, dan keluarga yang suka makanan sehat."
+    }
+   }
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 74,
+   "parts": {
+    "demand": 9.7,
+    "growth": 30.0,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 9.7
+   },
+   "growth_pct": 129,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    2.4,
+    1.7,
+    3.5,
+    3.2,
+    0.0,
+    2.0,
+    0.0,
+    1.3,
+    1.5,
+    0.0,
+    4.8,
+    4.8
+   ],
+   "related": [],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 129% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 2 days"
+   ],
+   "rank": 4,
+   "ideas": {
+    "hook": "Seduh kopi atau mie instan tanpa nunggu lama lagi!",
+    "script": [
+     "0-3 detik: Seduh kopi atau mie instan tanpa nunggu lama lagi!",
+     "3-15 detik: Cukup tekan satu tombol, air mendidih super cepat dalam beberapa menit dan otomatis mati sendiri jadi lebih aman.",
+     "15-25 detik: Ambil kesempatan flash sale Harbolnas 11.11, kapasitas [ukuran] ini harganya cuma [harga].",
+     "25-30 detik: Praktis banget buat harian, langsung klik keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 cinematography, side close-up of a sleek modern electric kettle boiling water, steam elegantly drifting from the spout, water poured smoothly into a glass cup releasing tiny air bubbles, warm morning kitchen light, sharp details, no text, no faces.",
+    "model": "gemini-3.8-flash",
+    "analysis": {
+     "name": "Teko Listrik Otomatis",
+     "category": "Kitchen appliances",
+     "function": "Mendidihkan air panas dengan cepat dan praktis.",
+     "selling_points": "Mendidih cepat dalam hitungan menit, Fitur otomatis mati saat air mendidih, Desain modern dan bodi tahan panas",
+     "visual_details": "Bodi teko stainless atau matte premium yang mengilap, uap air keluar dari corong saat tombol indikator menyala.",
+     "target_customer": "Anak kost, pecinta kopi/teh, dan pekerja kantor yang butuh air panas cepat."
+    }
+   }
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 73,
+   "parts": {
+    "demand": 12.9,
+    "growth": 20.3,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 9.7
+   },
+   "growth_pct": 1,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    5.9,
+    10.0,
+    4.3,
+    10.6,
+    6.9,
+    5.0,
+    9.1,
+    8.2,
+    10.2,
+    7.4,
+    9.5,
+    9.1
+   ],
+   "related": [
+    "model wallpaper dinding ruang tamu",
+    "tempat jual wallpaper dinding terdekat",
+    "toko wallpaper dinding terdekat dari lokasi saya sekarang"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 2 days"
+   ],
+   "rank": 5,
+   "ideas": {
+    "hook": "Sulap kamar kusam jadi estetik cuma modal tempel!",
+    "script": [
+     "0-3 detik: Sulap kamar kusam jadi estetik cuma modal tempel!",
+     "3-15 detik: Pasangnya gampang banget tinggal buka perekatnya, anti air dan langsung bikin dinding ruangan kelihatan mewah seketika.",
+     "15-25 detik: Mumpung ada promo Harbolnas 11.11, roll ukuran [ukuran] ini bisa kamu bawa pulang seharga [harga].",
+     "25-30 detik: Yuk dekor kamar impianmu sekarang, cek keranjang kuning!"
+    ],
+    "prompt": "Vertical 9:16 cinematography, close-up of hands smoothing out a stylish textured self-adhesive wallpaper onto an indoor wall, seamless application without air bubbles, soft natural daylight illuminating the cozy transformed room, clean aesthetic, no text, no faces.",
+    "model": "gemini-3.8-flash",
+    "analysis": {
+     "name": "Wallpaper Dinding Ruangan",
+     "category": "Home decor & tools",
+     "function": "Melapisi dan mempercantik dinding ruangan seketika.",
+     "selling_points": "Sudah ada lem perekat tinggal tempel, Bahan tahan air dan mudah dilap, Motif modern mengubah suasana kamar seketika",
+     "visual_details": "Lapisan wallpaper bertekstur elegan ditempel rapi ke dinding, menutupi noda dengan hasil akhir mulus sempurna.",
+     "target_customer": "Pemilik rumah, anak kost, dan penyewa apartemen yang ingin renovasi hemat budget."
+    }
+   }
+  },
+  {
+   "keyword": "juicer",
+   "category": "Kitchen appliances",
+   "score": 73,
+   "parts": {
+    "demand": 11.6,
+    "growth": 26.1,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 9.7
+   },
+   "growth_pct": 38,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    11.9,
+    10.2,
+    10.0,
+    8.3,
+    7.4,
+    6.5,
+    4.3,
+    10.0,
+    2.8,
+    6.1,
+    7.2,
+    7.4
+   ],
+   "related": [
+    "slow juicer oxone",
+    "juicer portable",
+    "hurom slow juicer"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Searches up 38% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 2 days"
+   ],
+   "rank": 6,
+   "ideas": {
+    "hook": "Bikin jus buah murni segar setiap pagi tanpa ribet!",
+    "script": [
+     "0-3 detik: Bikin jus buah murni segar setiap pagi tanpa ribet!",
+     "3-15 detik: Masukkan buah favoritmu, mesin ini langsung memisahkan sari murni dan ampasnya dengan sangat halus dan segar.",
+     "15-25 detik: Jangan lewatkan diskon Harbolnas 11.11, perangkat berkapasitas [ukuran] ini sedang hemat seharga [harga].",
+     "25-30 detik: Mulai hidup sehat dari sekarang, langsung cek keranjang kuning!"
+    ],
+    "prompt": "Vertical 9:16 cinematography, dynamic slow motion of fresh vibrant orange juice streaming out of a modern juicer spout into a transparent glass, fresh citrus and green apple slices resting on a clean wooden table next to it, crisp lighting, no text, no faces.",
+    "model": "gemini-3.8-flash",
+    "analysis": {
+     "name": "Mesin Juicer Pembuat Jus",
+     "category": "Kitchen appliances",
+     "function": "Memisahkan sari buah murni dari ampasnya secara efisien.",
+     "selling_points": "Menghasilkan sari buah murni tanpa banyak ampas, Mudah dibongkar-pasang untuk dicuci, Suara mesin halus dan motor bertenaga",
+     "visual_details": "Aliran jus buah segar berwarna cerah mengalir lancar ke dalam wadah bening, ampas buah terpisah kering di tabung sebelah.",
+     "target_customer": "Individu yang menjalani gaya hidup sehat, pelaku diet, dan keluarga muda."
+    }
+   }
+  },
+  {
+   "keyword": "lampu led strip",
+   "category": "Home decor & tools",
+   "score": 70,
+   "parts": {
+    "demand": 12.3,
+    "growth": 24.2,
+    "commission": 10.5,
+    "competition": 3.0,
+    "content": 10.0,
+    "season": 9.7
+   },
+   "growth_pct": 34,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    5.7,
+    5.4,
+    6.1,
+    5.2,
+    4.6,
+    3.0,
+    7.8,
+    4.3,
+    5.9,
+    4.1,
+    7.4,
+    7.8
+   ],
+   "related": [
+    "cara pasang lampu led strip"
+   ],
+   "commission": 7,
+   "competition": "high",
+   "content": 5,
+   "why": [
+    "Searches up 34% vs the previous 3 weeks",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 2 days"
+   ],
+   "rank": 7,
+   "ideas": {
+    "hook": "Ubah suasana kamar biasa jadi ala kamar gaming estetik!",
+    "script": [
+     "0-3 detik: Ubah suasana kamar biasa jadi ala kamar gaming estetik!",
+     "3-15 detik: Cukup tempel di belakang meja atau sudut dinding, warnanya bisa diatur dan bikin ruangan langsung terasa hidup dan nyaman.",
+     "15-25 detik: Pas banget lagi event Harbolnas 11.11, panjang [ukuran] ini bisa kamu dapat cuma [harga].",
+     "25-30 detik: Bikin kamarmu makin keren, buruan cek keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 cinematography, close-up tracking shot along a flexible LED light strip glowing in warm purple and cyan colors installed behind a modern minimalist desk, dark atmospheric room with gorgeous vibrant neon glow, high cinematic contrast, no text, no faces.",
+    "model": "gemini-3.8-flash",
+    "analysis": {
+     "name": "Lampu LED Strip Dekorasi",
+     "category": "Home decor & tools",
+     "function": "Memberikan pencahayaan aksen warna-warni pada ruangan atau furnitur.",
+     "selling_points": "Fleksibel dan mudah ditempel di berbagai sudut, Pilihan warna variatif bisa diatur, Hemat energi dan tahan lama",
+     "visual_details": "Pita lampu LED berpendar lembut di balik meja belajar atau plafon, memancarkan gradasi warna neon yang estetik.",
+     "target_customer": "Gamers, kreator konten, dan remaja yang menyukai suasana kamar kekinian."
+    }
+   }
+  },
+  {
+   "keyword": "kompor portable",
+   "category": "Kitchen appliances",
+   "score": 70,
+   "parts": {
+    "demand": 14.8,
+    "growth": 22.3,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 9.7
+   },
+   "growth_pct": 10,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    11.7,
+    12.0,
+    11.7,
+    12.8,
+    3.9,
+    9.5,
+    12.6,
+    10.9,
+    11.1,
+    9.8,
+    11.3,
+    11.9
+   ],
+   "related": [
+    "cara menghidupkan kompor portable",
+    "sewa kompor portable surabaya",
+    "harga kompor portable tabung gas kecil 50rb"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Harbolnas 11.11 in 2 days"
+   ],
+   "rank": 8,
+   "ideas": {
+    "hook": "Grill atau masak seru di mana aja jadi gampang!",
+    "script": [
+     "0-3 detik: Grill atau masak seru di mana aja jadi gampang!",
+     "3-15 detik: Pasang gas kalengnya, nyalakan api biru yang stabil, dan kamu bisa langsung masak shabu-shabu atau memanggang daging di meja makan.",
+     "15-25 detik: Momen belanja hemat Harbolnas 11.11, kompor praktis ukuran [ukuran] ini cuma dibanderol [harga].",
+     "25-30 detik: Siap buat acara kumpul bareng, yuk cek keranjang kuning sekarang!"
+    ],
+    "prompt": "Vertical 9:16 cinematography, top-angle close-up of a compact portable gas stove firing an even, vibrant blue flame, a small cast iron skillet sizzling with fresh meat skewers placed on top, outdoor picnic table atmosphere with natural background blur, no text, no faces.",
+    "model": "gemini-3.8-flash",
+    "analysis": {
+     "name": "Kompor Gas Portable",
+     "category": "Kitchen appliances",
+     "function": "Memasak praktis di dalam ruangan maupun luar ruangan dengan tabung gas kecil.",
+     "selling_points": "Ringan dan mudah dibawa bepergian, Api biru merata dan mudah diatur, Sistem penguncian tabung gas aman",
+     "visual_details": "Kompor dengan lapisan bodi kokoh, api biru stabil menyala melingkar di bawah wajan panggangan mini.",
+     "target_customer": "Pecinta camping, anak kost, dan keluarga yang gemar suki atau grill di rumah."
+    }
+   }
+  }
+ ]
+}
