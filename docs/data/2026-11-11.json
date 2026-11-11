@@ -1,0 +1,352 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T01:39:48Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 85,
+   "parts": {
+    "demand": 16.8,
+    "growth": 28.1,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 10.0
+   },
+   "growth_pct": 81,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    0.0,
+    1.6,
+    2.6,
+    1.0,
+    1.7,
+    0.0,
+    3.1,
+    8.1,
+    11.3,
+    10.9,
+    16.1,
+    23.0
+   ],
+   "related": [
+    "jual pohon natal",
+    "pohon natal diy",
+    "cara buat pohon natal"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 81% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 0 days"
+   ],
+   "rank": 1
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 81,
+   "parts": {
+    "demand": 9.7,
+    "growth": 29.0,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 10.0
+   },
+   "growth_pct": 86,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    15.2,
+    26.0,
+    40.2,
+    27.2,
+    16.1,
+    2.4,
+    0.0,
+    2.8,
+    2.6,
+    1.2,
+    4.8,
+    5.4
+   ],
+   "related": [
+    "how to use a slow cooker",
+    "slow cooker recipes"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 86% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 11.11 in 0 days"
+   ],
+   "rank": 2
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 77,
+   "parts": {
+    "demand": 10.3,
+    "growth": 25.2,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 10.0
+   },
+   "growth_pct": 50,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    4.0,
+    4.2,
+    3.3,
+    3.8,
+    0.0,
+    5.2,
+    2.6,
+    4.2,
+    4.0,
+    2.6,
+    6.2,
+    6.4
+   ],
+   "related": [
+    "toko cetakan kue terdekat",
+    "cetakan kue balok",
+    "cetakan kue mangkok"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 50% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 11.11 in 0 days"
+   ],
+   "rank": 3
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 74,
+   "parts": {
+    "demand": 15.5,
+    "growth": 21.3,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 10.0
+   },
+   "growth_pct": 6,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    12.5,
+    12.6,
+    13.0,
+    10.0,
+    5.5,
+    11.9,
+    9.2,
+    11.3,
+    11.4,
+    10.0,
+    11.4,
+    11.6
+   ],
+   "related": [
+    "harga alat lem tembak kecil",
+    "harga lem tembak kecil di fotocopy",
+    "isi lem tembak harga"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 11.11 in 0 days"
+   ],
+   "rank": 4
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 71,
+   "parts": {
+    "demand": 9.0,
+    "growth": 27.1,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 10.0
+   },
+   "growth_pct": 74,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    1.2,
+    1.2,
+    2.3,
+    3.8,
+    1.2,
+    2.8,
+    1.2,
+    2.8,
+    2.4,
+    1.6,
+    4.7,
+    5.0
+   ],
+   "related": [
+    "teko listrik cosmos",
+    "teko listrik mini",
+    "teko listrik stainless"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 74% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 0 days"
+   ],
+   "rank": 5
+  },
+  {
+   "keyword": "juicer",
+   "category": "Kitchen appliances",
+   "score": 71,
+   "parts": {
+    "demand": 11.6,
+    "growth": 24.2,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 10.0
+   },
+   "growth_pct": 25,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    13.0,
+    8.3,
+    9.2,
+    12.1,
+    4.0,
+    7.4,
+    5.5,
+    8.7,
+    8.3,
+    2.4,
+    7.1,
+    7.4
+   ],
+   "related": [
+    "slow juicer mito",
+    "juicer sharp",
+    "juicer portable"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Searches up 25% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 0 days"
+   ],
+   "rank": 6
+  },
+  {
+   "keyword": "solder listrik",
+   "category": "Home decor & tools",
+   "score": 70,
+   "parts": {
+    "demand": 7.1,
+    "growth": 30.0,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 10.0
+   },
+   "growth_pct": 100,
+   "rising": true,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    1.2,
+    0.0,
+    1.2,
+    0.0,
+    0.0,
+    1.2,
+    0.0,
+    0.0,
+    1.2,
+    0.0,
+    2.4,
+    2.4
+   ],
+   "related": [
+    "gambar solder listrik",
+    "alat solder listrik"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 100% vs the previous 3 weeks",
+    "Harbolnas 11.11 in 0 days"
+   ],
+   "rank": 7
+  },
+  {
+   "keyword": "kompor portable",
+   "category": "Kitchen appliances",
+   "score": 70,
+   "parts": {
+    "demand": 14.8,
+    "growth": 22.3,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 10.0
+   },
+   "growth_pct": 15,
+   "rising": false,
+   "upcoming": "Harbolnas 11.11",
+   "spark": [
+    9.0,
+    11.3,
+    13.8,
+    11.9,
+    4.7,
+    14.4,
+    10.6,
+    12.6,
+    8.3,
+    11.1,
+    11.3,
+    11.8
+   ],
+   "related": [
+    "service kompor portable terdekat",
+    "harga gas kompor portable di indomaret",
+    "kompor portable winn gas"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Harbolnas 11.11 in 0 days"
+   ],
+   "rank": 8
+  }
+ ]
+}
