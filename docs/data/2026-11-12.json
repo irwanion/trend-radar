@@ -1,0 +1,351 @@
+{
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T01:49:40Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 80,
+   "parts": {
+    "demand": 16.8,
+    "growth": 28.1,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.0
+   },
+   "growth_pct": 104,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    1.2,
+    2.5,
+    2.3,
+    1.1,
+    0.0,
+    5.1,
+    4.1,
+    7.9,
+    6.9,
+    11.8,
+    16.8,
+    24.2
+   ],
+   "related": [
+    "pohon natal itu pohon apa",
+    "cara membuat pohon natal",
+    "diy pohon natal"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 104% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 30 days"
+   ],
+   "rank": 1
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 73,
+   "parts": {
+    "demand": 9.7,
+    "growth": 26.1,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 5.0
+   },
+   "growth_pct": 65,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    12.9,
+    28.6,
+    39.2,
+    25.8,
+    26.3,
+    3.7,
+    2.8,
+    2.5,
+    4.1,
+    0.0,
+    4.9,
+    4.9
+   ],
+   "related": [
+    "kegunaan slow cooker",
+    "slow cooker vs pressure cooker",
+    "slow cooker emily"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 65% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 12.12 in 30 days"
+   ],
+   "rank": 2
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 72,
+   "parts": {
+    "demand": 10.3,
+    "growth": 25.2,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.0
+   },
+   "growth_pct": 48,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    3.9,
+    4.1,
+    4.8,
+    1.1,
+    1.9,
+    1.2,
+    3.0,
+    4.2,
+    3.9,
+    2.3,
+    6.0,
+    6.0
+   ],
+   "related": [
+    "cetakan kue pai",
+    "cetakan kue balok",
+    "cetakan kue bulan"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 48% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 30 days"
+   ],
+   "rank": 3
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 70,
+   "parts": {
+    "demand": 12.9,
+    "growth": 22.3,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.0
+   },
+   "growth_pct": 14,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    9.3,
+    8.1,
+    6.7,
+    9.2,
+    5.1,
+    6.0,
+    9.5,
+    10.2,
+    6.4,
+    9.7,
+    8.6,
+    9.3
+   ],
+   "related": [
+    "motif wallpaper dinding terbaru",
+    "harga wallpaper dinding 1 roll",
+    "model wallpaper dinding terbaru"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 30 days"
+   ],
+   "rank": 4
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 69,
+   "parts": {
+    "demand": 9.0,
+    "growth": 30.0,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 5.0
+   },
+   "growth_pct": 235,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    3.7,
+    3.9,
+    3.9,
+    3.0,
+    2.3,
+    1.2,
+    1.4,
+    2.8,
+    0.0,
+    0.0,
+    4.6,
+    5.1
+   ],
+   "related": [
+    "teko listrik cosmos",
+    "teko listrik mini"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 235% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 30 days"
+   ],
+   "rank": 5
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 68,
+   "parts": {
+    "demand": 15.5,
+    "growth": 20.3,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 5.0
+   },
+   "growth_pct": 7,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    13.6,
+    12.9,
+    11.8,
+    12.0,
+    4.8,
+    11.5,
+    8.5,
+    11.1,
+    12.2,
+    10.8,
+    11.1,
+    12.2
+   ],
+   "related": [
+    "lem tembak terbaik",
+    "lem tembak tanpa kabel",
+    "berapa harga lem tembak"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 12.12 in 30 days"
+   ],
+   "rank": 6
+  },
+  {
+   "keyword": "mixer kue",
+   "category": "Kitchen appliances",
+   "score": 67,
+   "parts": {
+    "demand": 6.5,
+    "growth": 27.1,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.0
+   },
+   "growth_pct": 91,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.3,
+    2.2,
+    2.2
+   ],
+   "related": [],
+   "commission": 7,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 91% vs the previous 3 weeks",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 30 days"
+   ],
+   "rank": 7
+  },
+  {
+   "keyword": "kompor portable",
+   "category": "Kitchen appliances",
+   "score": 66,
+   "parts": {
+    "demand": 14.8,
+    "growth": 23.2,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 5.0
+   },
+   "growth_pct": 18,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    11.8,
+    8.6,
+    13.2,
+    7.9,
+    5.5,
+    13.2,
+    10.6,
+    12.2,
+    7.8,
+    10.9,
+    11.3,
+    11.8
+   ],
+   "related": [
+    "tempat jual kompor portable terdekat",
+    "tempat sewa kompor portable terdekat",
+    "service kompor portable terdekat"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Harbolnas 12.12 in 30 days"
+   ],
+   "rank": 8
+  }
+ ]
+}
