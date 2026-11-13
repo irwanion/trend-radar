@@ -1,0 +1,350 @@
+{
+ "date": "2026-11-13",
+ "generated_at": "2026-11-13T01:44:42Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 82,
+   "parts": {
+    "demand": 16.8,
+    "growth": 30.0,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.2
+   },
+   "growth_pct": 98,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    2.1,
+    2.7,
+    1.3,
+    0.0,
+    0.0,
+    4.2,
+    4.2,
+    8.0,
+    6.4,
+    13.5,
+    18.0,
+    25.0
+   ],
+   "related": [
+    "pohon natal itu pohon apa",
+    "cara membuat pohon natal",
+    "sewa pohon natal"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 98% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 29 days"
+   ],
+   "rank": 1
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 75,
+   "parts": {
+    "demand": 9.0,
+    "growth": 29.0,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 5.2
+   },
+   "growth_pct": 79,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    11.6,
+    34.7,
+    34.7,
+    31.1,
+    13.1,
+    2.3,
+    1.1,
+    2.8,
+    1.7,
+    1.3,
+    4.9,
+    4.7
+   ],
+   "related": [
+    "slow cooker vs pressure cooker",
+    "slow cooker adalah"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 79% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 12.12 in 29 days"
+   ],
+   "rank": 2
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 72,
+   "parts": {
+    "demand": 10.3,
+    "growth": 25.2,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.2
+   },
+   "growth_pct": 31,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    4.0,
+    3.2,
+    4.9,
+    1.1,
+    1.3,
+    1.5,
+    4.9,
+    6.1,
+    5.5,
+    3.4,
+    6.3,
+    6.6
+   ],
+   "related": [
+    "cetakan kue pai",
+    "cetakan kue akar kelapa",
+    "cetakan kue pie"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 31% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 29 days"
+   ],
+   "rank": 3
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 70,
+   "parts": {
+    "demand": 15.5,
+    "growth": 22.3,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 5.2
+   },
+   "growth_pct": 9,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    10.8,
+    14.4,
+    12.1,
+    11.6,
+    5.1,
+    11.6,
+    9.9,
+    12.5,
+    11.4,
+    12.5,
+    11.2,
+    12.7
+   ],
+   "related": [
+    "harga lem tembak kecil di fotocopy",
+    "harga lem tembak dan isinya",
+    "berapa harga lem tembak"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 12.12 in 29 days"
+   ],
+   "rank": 4
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 68,
+   "parts": {
+    "demand": 12.9,
+    "growth": 19.4,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.2
+   },
+   "growth_pct": 4,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    9.1,
+    9.1,
+    7.0,
+    9.7,
+    3.2,
+    5.7,
+    11.2,
+    9.5,
+    7.2,
+    10.8,
+    8.9,
+    9.3
+   ],
+   "related": [
+    "motif wallpaper dinding terbaru",
+    "penjual wallpaper dinding terdekat",
+    "wallpaper dinding ruang tamu elegan"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 29 days"
+   ],
+   "rank": 5
+  },
+  {
+   "keyword": "lampu led strip",
+   "category": "Home decor & tools",
+   "score": 67,
+   "parts": {
+    "demand": 12.3,
+    "growth": 26.1,
+    "commission": 10.5,
+    "competition": 3.0,
+    "content": 10.0,
+    "season": 5.2
+   },
+   "growth_pct": 34,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    3.8,
+    6.4,
+    8.5,
+    5.5,
+    0.0,
+    4.6,
+    7.2,
+    4.6,
+    5.5,
+    4.4,
+    7.6,
+    7.8
+   ],
+   "related": [
+    "jenis lampu led strip",
+    "lampu led strip 12 volt"
+   ],
+   "commission": 7,
+   "competition": "high",
+   "content": 5,
+   "why": [
+    "Searches up 34% vs the previous 3 weeks",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 29 days"
+   ],
+   "rank": 6
+  },
+  {
+   "keyword": "oven listrik",
+   "category": "Kitchen appliances",
+   "score": 67,
+   "parts": {
+    "demand": 13.5,
+    "growth": 24.2,
+    "commission": 7.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 5.2
+   },
+   "growth_pct": 19,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    11.8,
+    7.0,
+    10.4,
+    9.9,
+    5.1,
+    9.9,
+    8.7,
+    11.2,
+    11.9,
+    4.4,
+    10.4,
+    10.6
+   ],
+   "related": [
+    "rekomendasi oven listrik low watt terbaik",
+    "merk oven listrik yang bagus dan hemat listrik",
+    "signora oven listrik"
+   ],
+   "commission": 5,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 12.12 in 29 days"
+   ],
+   "rank": 7
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 66,
+   "parts": {
+    "demand": 9.0,
+    "growth": 27.1,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 5.2
+   },
+   "growth_pct": 73,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    2.5,
+    1.3,
+    2.5,
+    1.3,
+    1.1,
+    0.0,
+    2.5,
+    2.7,
+    1.3,
+    2.5,
+    4.7,
+    4.9
+   ],
+   "related": [],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 73% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 29 days"
+   ],
+   "rank": 8
+  }
+ ]
+}
