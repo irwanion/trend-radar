@@ -1,0 +1,352 @@
+{
+ "date": "2026-11-14",
+ "generated_at": "2026-11-14T01:40:15Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 80,
+   "parts": {
+    "demand": 16.8,
+    "growth": 28.1,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.3
+   },
+   "growth_pct": 93,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    0.0,
+    0.0,
+    3.5,
+    0.0,
+    3.5,
+    4.4,
+    2.2,
+    8.1,
+    7.7,
+    13.8,
+    19.1,
+    26.1
+   ],
+   "related": [
+    "jual pohon natal",
+    "pohon natal png",
+    "slinger pohon natal"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 93% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 28 days"
+   ],
+   "rank": 1
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 75,
+   "parts": {
+    "demand": 10.3,
+    "growth": 27.1,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.3
+   },
+   "growth_pct": 81,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    3.7,
+    5.3,
+    3.9,
+    1.3,
+    1.7,
+    2.9,
+    4.1,
+    4.6,
+    1.3,
+    3.1,
+    6.3,
+    6.4
+   ],
+   "related": [
+    "cetakan kue pai",
+    "cetakan kue pie",
+    "cetakan kue bulan"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 81% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 28 days"
+   ],
+   "rank": 2
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 73,
+   "parts": {
+    "demand": 12.9,
+    "growth": 24.2,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 5.3
+   },
+   "growth_pct": 37,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    8.7,
+    6.6,
+    7.0,
+    8.1,
+    1.7,
+    5.7,
+    8.1,
+    6.8,
+    6.1,
+    5.7,
+    9.2,
+    9.6
+   ],
+   "related": [
+    "toko wallpaper dinding terdekat dari lokasi saya sekarang",
+    "penjual wallpaper dinding terdekat",
+    "harga wallpaper dinding per roll"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 37% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 28 days"
+   ],
+   "rank": 3
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 72,
+   "parts": {
+    "demand": 9.0,
+    "growth": 26.1,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 5.3
+   },
+   "growth_pct": 57,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    9.2,
+    35.4,
+    32.0,
+    31.7,
+    0.0,
+    2.8,
+    2.6,
+    4.1,
+    3.7,
+    0.0,
+    4.8,
+    4.4
+   ],
+   "related": [
+    "slow cooker adalah",
+    "kegunaan slow cooker",
+    "slow cooker vs pressure cooker"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 57% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 12.12 in 28 days"
+   ],
+   "rank": 4
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 70,
+   "parts": {
+    "demand": 15.5,
+    "growth": 22.3,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 5.3
+   },
+   "growth_pct": 12,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    11.4,
+    9.9,
+    11.8,
+    11.6,
+    3.9,
+    9.9,
+    10.3,
+    10.9,
+    12.5,
+    11.0,
+    11.0,
+    12.9
+   ],
+   "related": [
+    "harga alat lem tembak kecil",
+    "harga isi lem tembak 1 biji",
+    "lem tembak tanpa kabel"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 12.12 in 28 days"
+   ],
+   "rank": 5
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 70,
+   "parts": {
+    "demand": 9.7,
+    "growth": 30.0,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 5.3
+   },
+   "growth_pct": 153,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    1.3,
+    3.7,
+    1.1,
+    1.3,
+    2.9,
+    0.0,
+    2.2,
+    2.6,
+    0.0,
+    1.5,
+    4.4,
+    5.0
+   ],
+   "related": [],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 153% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 28 days"
+   ],
+   "rank": 6
+  },
+  {
+   "keyword": "lampu led strip",
+   "category": "Home decor & tools",
+   "score": 66,
+   "parts": {
+    "demand": 12.3,
+    "growth": 25.2,
+    "commission": 10.5,
+    "competition": 3.0,
+    "content": 10.0,
+    "season": 5.3
+   },
+   "growth_pct": 50,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    4.2,
+    5.9,
+    5.2,
+    5.9,
+    1.3,
+    4.6,
+    4.4,
+    5.7,
+    3.1,
+    5.9,
+    7.9,
+    8.5
+   ],
+   "related": [
+    "sambungan lampu led strip",
+    "harga lampu led strip per meter",
+    "toko lampu led strip terdekat"
+   ],
+   "commission": 7,
+   "competition": "high",
+   "content": 5,
+   "why": [
+    "Searches up 50% vs the previous 3 weeks",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 28 days"
+   ],
+   "rank": 7
+  },
+  {
+   "keyword": "vas bunga",
+   "category": "Home decor & tools",
+   "score": 66,
+   "parts": {
+    "demand": 14.2,
+    "growth": 19.4,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 5.3
+   },
+   "growth_pct": 2,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    13.8,
+    16.4,
+    16.4,
+    17.5,
+    9.0,
+    15.5,
+    14.0,
+    15.5,
+    14.2,
+    10.5,
+    11.2,
+    12.2
+   ],
+   "related": [
+    "cara membuat vas bunga dari botol bekas air mineral",
+    "vas bunga kaca bening"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 12.12 in 28 days"
+   ],
+   "rank": 8
+  }
+ ]
+}
