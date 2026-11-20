@@ -1,0 +1,353 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T01:48:15Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 79,
+   "parts": {
+    "demand": 16.8,
+    "growth": 25.2,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.3
+   },
+   "growth_pct": 79,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    0.9,
+    2.3,
+    1.1,
+    1.3,
+    4.3,
+    4.8,
+    6.3,
+    4.8,
+    11.6,
+    17.2,
+    25.3,
+    32.2
+   ],
+   "related": [
+    "cara membuat pohon natal",
+    "bintang pohon natal",
+    "model pohon natal"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 79% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 22 days"
+   ],
+   "rank": 1
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 75,
+   "parts": {
+    "demand": 9.0,
+    "growth": 28.1,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 6.3
+   },
+   "growth_pct": 118,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    33.1,
+    34.4,
+    32.4,
+    12.5,
+    1.1,
+    0.0,
+    1.3,
+    1.4,
+    1.3,
+    1.3,
+    4.7,
+    5.2
+   ],
+   "related": [
+    "russell hobbs slow cooker",
+    "slow cooker adalah",
+    "slow cooker maspion"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 118% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 12.12 in 22 days"
+   ],
+   "rank": 2
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 75,
+   "parts": {
+    "demand": 10.3,
+    "growth": 26.1,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.3
+   },
+   "growth_pct": 83,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    5.0,
+    6.3,
+    5.4,
+    2.1,
+    2.9,
+    4.1,
+    4.3,
+    1.3,
+    3.0,
+    1.3,
+    6.3,
+    6.4
+   ],
+   "related": [
+    "cetakan kue akar kelapa",
+    "cetakan kue pie",
+    "cetakan kue bulan"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 83% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 22 days"
+   ],
+   "rank": 3
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 71,
+   "parts": {
+    "demand": 15.5,
+    "growth": 22.3,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.3
+   },
+   "growth_pct": 32,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    13.3,
+    13.1,
+    12.0,
+    9.3,
+    9.3,
+    7.0,
+    10.4,
+    14.3,
+    10.2,
+    8.8,
+    12.7,
+    14.0
+   ],
+   "related": [
+    "harga alat lem tembak kecil",
+    "harga lem tembak kecil di fotocopy",
+    "berapa harga lem tembak"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Searches up 32% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 22 days"
+   ],
+   "rank": 4
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 70,
+   "parts": {
+    "demand": 9.7,
+    "growth": 29.0,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 6.3
+   },
+   "growth_pct": 133,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    1.1,
+    3.2,
+    1.4,
+    1.3,
+    0.0,
+    1.1,
+    0.0,
+    1.3,
+    0.0,
+    1.3,
+    5.2,
+    5.0
+   ],
+   "related": [
+    "teko listrik watt kecil",
+    "teko listrik mini"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 133% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 22 days"
+   ],
+   "rank": 5
+  },
+  {
+   "keyword": "jam dinding",
+   "category": "Home decor & tools",
+   "score": 68,
+   "parts": {
+    "demand": 18.1,
+    "growth": 20.3,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 6.3
+   },
+   "growth_pct": 7,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    33.5,
+    36.5,
+    35.1,
+    21.1,
+    40.1,
+    36.7,
+    35.3,
+    38.5,
+    32.2,
+    35.3,
+    35.6,
+    36.9
+   ],
+   "related": [
+    "jam dinding bca prioritas",
+    "jam dinding aesthetic",
+    "jam dinding bahasa inggrisnya"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Harbolnas 12.12 in 22 days"
+   ],
+   "rank": 6
+  },
+  {
+   "keyword": "vas bunga",
+   "category": "Home decor & tools",
+   "score": 67,
+   "parts": {
+    "demand": 14.8,
+    "growth": 19.4,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.3
+   },
+   "growth_pct": 6,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    12.7,
+    17.9,
+    16.8,
+    9.0,
+    17.4,
+    14.7,
+    15.2,
+    15.4,
+    10.2,
+    11.6,
+    12.0,
+    12.0
+   ],
+   "related": [
+    "vas bunga lomba sihir",
+    "chord setangkai bunga mawar darimu di dalam vas di samping buku",
+    "cara membuat vas bunga dari stik es krim"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 12.12 in 22 days"
+   ],
+   "rank": 7
+  },
+  {
+   "keyword": "juicer",
+   "category": "Kitchen appliances",
+   "score": 67,
+   "parts": {
+    "demand": 11.0,
+    "growth": 24.2,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.3
+   },
+   "growth_pct": 62,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    6.6,
+    9.0,
+    11.3,
+    4.5,
+    4.3,
+    6.1,
+    9.0,
+    5.4,
+    3.8,
+    2.5,
+    7.3,
+    7.3
+   ],
+   "related": [
+    "juicer deals",
+    "wireless juicer",
+    "juicer comparison"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Searches up 62% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 22 days"
+   ],
+   "rank": 8
+  }
+ ]
+}
