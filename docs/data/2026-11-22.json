@@ -1,0 +1,357 @@
+{
+ "date": "2026-11-22",
+ "generated_at": "2026-11-22T01:46:10Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 81,
+   "parts": {
+    "demand": 16.8,
+    "growth": 27.1,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.7
+   },
+   "growth_pct": 63,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    1.1,
+    4.6,
+    0.0,
+    9.3,
+    1.1,
+    6.9,
+    7.2,
+    9.5,
+    15.0,
+    22.7,
+    26.9,
+    35.0
+   ],
+   "related": [
+    "cara membuat pohon natal",
+    "pohon natal unik",
+    "model pohon natal"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 63% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 20 days"
+   ],
+   "rank": 1
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 78,
+   "parts": {
+    "demand": 10.3,
+    "growth": 29.0,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.7
+   },
+   "growth_pct": 100,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    3.6,
+    2.1,
+    3.0,
+    3.0,
+    1.1,
+    6.9,
+    4.4,
+    2.5,
+    1.5,
+    3.0,
+    6.3,
+    7.2
+   ],
+   "related": [
+    "cetakan kue balok",
+    "cetakan kue pie",
+    "cetakan kue kembang goyang"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 100% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 20 days"
+   ],
+   "rank": 2
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 76,
+   "parts": {
+    "demand": 9.0,
+    "growth": 28.1,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 6.7
+   },
+   "growth_pct": 87,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    38.3,
+    27.0,
+    30.3,
+    3.0,
+    1.1,
+    1.9,
+    0.0,
+    1.3,
+    0.0,
+    2.9,
+    4.8,
+    4.8
+   ],
+   "related": [
+    "slow cooker adalah",
+    "russell hobbs slow cooker",
+    "slow cooker terbaik"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 87% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 12.12 in 20 days"
+   ],
+   "rank": 3
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 74,
+   "parts": {
+    "demand": 15.5,
+    "growth": 25.2,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.7
+   },
+   "growth_pct": 50,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    11.2,
+    11.2,
+    9.5,
+    7.4,
+    8.4,
+    9.9,
+    14.7,
+    11.2,
+    9.0,
+    7.8,
+    12.6,
+    14.7
+   ],
+   "related": [
+    "harga isi lem tembak 1 biji",
+    "lem tembak terbaik",
+    "berapa harga lem tembak"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Searches up 50% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 20 days"
+   ],
+   "rank": 4
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 70,
+   "parts": {
+    "demand": 12.9,
+    "growth": 20.3,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.7
+   },
+   "growth_pct": 11,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    7.4,
+    9.0,
+    7.2,
+    3.4,
+    7.2,
+    10.3,
+    6.7,
+    7.1,
+    6.3,
+    9.7,
+    9.7,
+    9.5
+   ],
+   "related": [
+    "harga wallpaper dinding 1 roll",
+    "toko wallpaper dinding terdekat dari lokasi saya sekarang",
+    "motif wallpaper dinding terbaru"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 20 days"
+   ],
+   "rank": 5
+  },
+  {
+   "keyword": "vas bunga",
+   "category": "Home decor & tools",
+   "score": 68,
+   "parts": {
+    "demand": 14.8,
+    "growth": 19.4,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.7
+   },
+   "growth_pct": 5,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    14.9,
+    19.4,
+    15.2,
+    10.5,
+    14.1,
+    13.9,
+    13.1,
+    13.1,
+    11.8,
+    10.9,
+    11.6,
+    12.0
+   ],
+   "related": [
+    "chord setangkai bunga mawar darimu di dalam vas di samping buku",
+    "toko vas bunga terdekat",
+    "cara membuat vas bunga dari stik es krim"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 12.12 in 20 days"
+   ],
+   "rank": 6
+  },
+  {
+   "keyword": "lampu led strip",
+   "category": "Home decor & tools",
+   "score": 67,
+   "parts": {
+    "demand": 12.3,
+    "growth": 24.2,
+    "commission": 10.5,
+    "competition": 3.0,
+    "content": 10.0,
+    "season": 6.7
+   },
+   "growth_pct": 40,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    5.5,
+    5.7,
+    2.9,
+    6.3,
+    6.1,
+    6.1,
+    7.4,
+    3.6,
+    6.3,
+    4.0,
+    7.6,
+    8.4
+   ],
+   "related": [
+    "cara memasang lampu led strip",
+    "jenis lampu led strip",
+    "cara pasang lampu led strip"
+   ],
+   "commission": 7,
+   "competition": "high",
+   "content": 5,
+   "why": [
+    "Searches up 40% vs the previous 3 weeks",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 20 days"
+   ],
+   "rank": 7
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 67,
+   "parts": {
+    "demand": 9.7,
+    "growth": 26.1,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 6.7
+   },
+   "growth_pct": 56,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    2.5,
+    1.5,
+    1.7,
+    2.9,
+    0.0,
+    0.0,
+    2.9,
+    1.1,
+    2.7,
+    2.3,
+    5.3,
+    5.3
+   ],
+   "related": [
+    "teko listrik mini",
+    "teko listrik terbaik",
+    "teko listrik cosmos"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 56% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 20 days"
+   ],
+   "rank": 8
+  }
+ ]
+}
