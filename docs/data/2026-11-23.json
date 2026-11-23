@@ -1,0 +1,348 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T08:04:23Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 80,
+   "parts": {
+    "demand": 16.8,
+    "growth": 26.1,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.8
+   },
+   "growth_pct": 81,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    0.0,
+    3.5,
+    0.0,
+    1.4,
+    3.9,
+    4.3,
+    5.5,
+    8.8,
+    13.1,
+    20.0,
+    28.4,
+    37.0
+   ],
+   "related": [],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 81% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 19 days"
+   ],
+   "rank": 1
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 77,
+   "parts": {
+    "demand": 9.0,
+    "growth": 29.0,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 6.8
+   },
+   "growth_pct": 108,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    42.4,
+    24.1,
+    29.3,
+    11.3,
+    0.0,
+    2.5,
+    0.0,
+    5.9,
+    1.4,
+    1.2,
+    4.5,
+    4.9
+   ],
+   "related": [
+    "slow cooker adalah",
+    "russell hobbs slow cooker",
+    "slow cooker baby safe"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 108% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 12.12 in 19 days"
+   ],
+   "rank": 2
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 76,
+   "parts": {
+    "demand": 10.3,
+    "growth": 27.1,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.8
+   },
+   "growth_pct": 100,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    6.1,
+    2.5,
+    0.0,
+    1.8,
+    3.9,
+    3.9,
+    3.1,
+    4.5,
+    2.3,
+    2.5,
+    6.3,
+    7.4
+   ],
+   "related": [
+    "cetakan kue pai",
+    "cetakan kue bulan",
+    "cetakan kue pie"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 100% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 19 days"
+   ],
+   "rank": 3
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 72,
+   "parts": {
+    "demand": 15.5,
+    "growth": 23.2,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.8
+   },
+   "growth_pct": 38,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    11.1,
+    12.5,
+    7.6,
+    9.0,
+    10.6,
+    10.8,
+    11.5,
+    13.3,
+    12.7,
+    7.8,
+    13.1,
+    15.5
+   ],
+   "related": [
+    "lem tembak tanpa kabel",
+    "harga lem tembak kecil di fotocopy",
+    "harga alat lem tembak kecil"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Searches up 38% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 19 days"
+   ],
+   "rank": 4
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 70,
+   "parts": {
+    "demand": 12.9,
+    "growth": 20.3,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 6.8
+   },
+   "growth_pct": 14,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    4.1,
+    10.6,
+    4.1,
+    4.9,
+    9.6,
+    9.8,
+    8.8,
+    2.9,
+    5.5,
+    9.8,
+    10.0,
+    9.6
+   ],
+   "related": [
+    "toko jual wallpaper dinding terdekat",
+    "penjual wallpaper dinding terdekat",
+    "harga wallpaper dinding 1 roll"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 19 days"
+   ],
+   "rank": 5
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 69,
+   "parts": {
+    "demand": 9.7,
+    "growth": 28.1,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 6.8
+   },
+   "growth_pct": 102,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    2.9,
+    4.3,
+    0.0,
+    1.2,
+    0.0,
+    1.2,
+    1.2,
+    0.0,
+    0.0,
+    2.5,
+    5.3,
+    5.3
+   ],
+   "related": [
+    "teko listrik watt kecil",
+    "teko listrik mini",
+    "teko listrik stainless"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 102% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 19 days"
+   ],
+   "rank": 6
+  },
+  {
+   "keyword": "juicer",
+   "category": "Kitchen appliances",
+   "score": 69,
+   "parts": {
+    "demand": 11.6,
+    "growth": 25.2,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.8
+   },
+   "growth_pct": 54,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    8.2,
+    7.0,
+    7.4,
+    2.5,
+    0.0,
+    6.5,
+    6.5,
+    3.3,
+    1.4,
+    6.5,
+    7.0,
+    7.6
+   ],
+   "related": [
+    "juicer deals",
+    "nutribullet juicer",
+    "affordable juicer"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Searches up 54% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 19 days"
+   ],
+   "rank": 7
+  },
+  {
+   "keyword": "vas bunga",
+   "category": "Home decor & tools",
+   "score": 68,
+   "parts": {
+    "demand": 14.8,
+    "growth": 19.4,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 6.8
+   },
+   "growth_pct": 13,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    15.5,
+    20.1,
+    10.8,
+    10.6,
+    15.3,
+    15.1,
+    14.3,
+    10.4,
+    11.7,
+    9.2,
+    11.7,
+    12.3
+   ],
+   "related": [],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 12.12 in 19 days"
+   ],
+   "rank": 8
+  }
+ ]
+}
