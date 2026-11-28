@@ -1,0 +1,354 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T08:20:02Z",
+ "demo": false,
+ "items": [
+  {
+   "keyword": "pohon natal",
+   "category": "Home decor & tools",
+   "score": 81,
+   "parts": {
+    "demand": 18.7,
+    "growth": 24.2,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 7.7
+   },
+   "growth_pct": 65,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    3.7,
+    0.0,
+    1.3,
+    4.0,
+    1.2,
+    6.2,
+    8.8,
+    13.3,
+    19.8,
+    31.3,
+    34.0,
+    46.9
+   ],
+   "related": [
+    "cara membuat pohon natal",
+    "pita pohon natal",
+    "bintang pohon natal"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 65% vs the previous 3 weeks",
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 14 days"
+   ],
+   "rank": 1
+  },
+  {
+   "keyword": "cetakan kue",
+   "category": "Kitchen appliances",
+   "score": 78,
+   "parts": {
+    "demand": 10.3,
+    "growth": 28.1,
+    "commission": 13.5,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 7.7
+   },
+   "growth_pct": 105,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    4.8,
+    1.3,
+    1.3,
+    0.0,
+    8.5,
+    2.7,
+    2.5,
+    3.8,
+    1.5,
+    2.3,
+    7.1,
+    7.5
+   ],
+   "related": [
+    "cetakan kue bulan",
+    "cetakan kue balok",
+    "cetakan kue pai"
+   ],
+   "commission": 9,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Searches up 105% vs the previous 3 weeks",
+    "Good commission (~9%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 14 days"
+   ],
+   "rank": 2
+  },
+  {
+   "keyword": "slow cooker",
+   "category": "Kitchen appliances",
+   "score": 75,
+   "parts": {
+    "demand": 9.0,
+    "growth": 26.1,
+    "commission": 9.0,
+    "competition": 15.0,
+    "content": 8.0,
+    "season": 7.7
+   },
+   "growth_pct": 87,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    31.5,
+    30.0,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    2.9,
+    1.2,
+    2.9,
+    0.0,
+    4.8,
+    4.8
+   ],
+   "related": [
+    "apa itu slow cooker",
+    "fungsi slow cooker",
+    "slow cooker adalah"
+   ],
+   "commission": 6,
+   "competition": "low",
+   "content": 4,
+   "why": [
+    "Searches up 87% vs the previous 3 weeks",
+    "Low competition (your estimate)",
+    "Harbolnas 12.12 in 14 days"
+   ],
+   "rank": 3
+  },
+  {
+   "keyword": "lem tembak",
+   "category": "Home decor & tools",
+   "score": 74,
+   "parts": {
+    "demand": 16.1,
+    "growth": 23.2,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 7.7
+   },
+   "growth_pct": 63,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    11.0,
+    11.3,
+    4.6,
+    6.7,
+    7.1,
+    12.7,
+    11.7,
+    12.1,
+    8.7,
+    11.5,
+    14.0,
+    18.6
+   ],
+   "related": [
+    "harga lem tembak kecil di fotocopy",
+    "harga alat lem tembak kecil",
+    "isi lem tembak kecil"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Searches up 63% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 14 days"
+   ],
+   "rank": 4
+  },
+  {
+   "keyword": "mesin kopi",
+   "category": "Kitchen appliances",
+   "score": 71,
+   "parts": {
+    "demand": 18.1,
+    "growth": 18.4,
+    "commission": 9.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 7.7
+   },
+   "growth_pct": 4,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    36.3,
+    39.4,
+    28.6,
+    39.8,
+    40.2,
+    40.2,
+    39.0,
+    39.8,
+    34.2,
+    39.4,
+    37.5,
+    38.5
+   ],
+   "related": [
+    "mesin kopi lamarzocco"
+   ],
+   "commission": 6,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 14 days"
+   ],
+   "rank": 5
+  },
+  {
+   "keyword": "vas bunga",
+   "category": "Home decor & tools",
+   "score": 69,
+   "parts": {
+    "demand": 14.8,
+    "growth": 19.4,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 8.0,
+    "season": 7.7
+   },
+   "growth_pct": 15,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    16.5,
+    17.3,
+    8.7,
+    15.8,
+    10.4,
+    15.4,
+    11.5,
+    12.3,
+    11.0,
+    9.8,
+    11.7,
+    12.5
+   ],
+   "related": [
+    "vas bunga lomba sihir",
+    "gambar vas bunga 3d",
+    "cara membuat vas bunga dari stik es krim"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 4,
+   "why": [
+    "Harbolnas 12.12 in 14 days"
+   ],
+   "rank": 6
+  },
+  {
+   "keyword": "teko listrik",
+   "category": "Kitchen appliances",
+   "score": 69,
+   "parts": {
+    "demand": 9.7,
+    "growth": 27.1,
+    "commission": 10.5,
+    "competition": 8.2,
+    "content": 6.0,
+    "season": 7.7
+   },
+   "growth_pct": 93,
+   "rising": true,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    3.5,
+    1.3,
+    2.5,
+    1.2,
+    1.2,
+    1.5,
+    0.0,
+    1.7,
+    1.5,
+    1.2,
+    5.4,
+    5.2
+   ],
+   "related": [
+    "teko listrik cosmos",
+    "teko listrik mini",
+    "teko air panas listrik"
+   ],
+   "commission": 7,
+   "competition": "medium",
+   "content": 3,
+   "why": [
+    "Searches up 93% vs the previous 3 weeks",
+    "Harbolnas 12.12 in 14 days"
+   ],
+   "rank": 7
+  },
+  {
+   "keyword": "wallpaper dinding",
+   "category": "Home decor & tools",
+   "score": 68,
+   "parts": {
+    "demand": 12.9,
+    "growth": 17.4,
+    "commission": 12.0,
+    "competition": 8.2,
+    "content": 10.0,
+    "season": 7.7
+   },
+   "growth_pct": 3,
+   "rising": false,
+   "upcoming": "Harbolnas 12.12",
+   "spark": [
+    5.8,
+    7.1,
+    3.1,
+    7.1,
+    11.9,
+    7.7,
+    11.0,
+    8.7,
+    11.0,
+    6.7,
+    9.8,
+    9.4
+   ],
+   "related": [
+    "penjual wallpaper dinding terdekat",
+    "toko wallpaper dinding terdekat dari lokasi saya sekarang",
+    "tempat jual wallpaper dinding terdekat"
+   ],
+   "commission": 8,
+   "competition": "medium",
+   "content": 5,
+   "why": [
+    "Good commission (~8%, your estimate)",
+    "Very easy to show in a short video",
+    "Harbolnas 12.12 in 14 days"
+   ],
+   "rank": 8
+  }
+ ]
+}
